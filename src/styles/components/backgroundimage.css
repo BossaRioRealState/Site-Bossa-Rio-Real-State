@@ -1,0 +1,26 @@
+.Backgroundimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50%; */
+}
+
+.textoCentro {
+    color: white;
+    font-size: 40px;
+    z-index: 1; /* Diz que o texto fica na frente da imagem e do overlay */
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+} */
