@@ -1,8 +1,24 @@
 header {
-	color: #5d0000;
+	color: #045570;
+    font-family: 'Libre Baskerville';
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	height: 90px;
 	padding: 0 5%;
+}
+
+.nav {
+    align-items: center;
+  }
+
+.nav ul {
+    align-items: center;
+	list-style: none;
+	display: flex;
+	gap: 60px;
+}
+
+.nav li {
+    align-items: center;
+	font-size: 23px;
 }
