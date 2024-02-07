@@ -1,0 +1,24 @@
+.container_botao_home{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    opacity: 0.6;
+}
+
+.botao_home {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    font-size: 24px;
+    align-self: "center";
+    font-family: Libre Baskerville;
+    background-color: #045570;
+    border-radius: 15px;
+    color: #E1DFDB;
+    transition: transform 1s;
+    padding: 7% 1%;
+}
+
+.botao_home:hover {
+    transform: scale(1.05);
+}

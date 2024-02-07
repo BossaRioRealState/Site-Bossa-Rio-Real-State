@@ -1,0 +1,33 @@
+.Texto {
+    display: flex;
+    font-family: Libre Baskerville;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2% 0;
+}
+
+.Texto>h2 {
+    font-family: Libre Baskerville;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: #045570;
+}
+
+.Texto hr {
+    font-family: Libre Baskerville;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #045570;
+    border: 1px solid #045570;
+}
+
+.Texto p {
+    font-family: Libre Baskerville;
+    text-align: center;
+    font-size: 24px;
+    color: #045570;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+}
