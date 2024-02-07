@@ -8,13 +8,14 @@ export default function Home() {
         <div className="Home">
             <Header />
             <div className="Start">
-                <Center>
-
-                </Center>
+                
 
                 <Backgroundimage size =  "1254px" imageUrl={"/images/Home/background1.jpg"}>
-                    <p></p>
+                
                 </Backgroundimage>
+                <Center>
+                    
+                </Center>
             </div>
 
             <div className="OurWork">

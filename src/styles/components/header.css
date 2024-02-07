@@ -3,16 +3,19 @@ header {
     font-family: 'Libre Baskerville';
 	display: flex;
 	align-items: center;
+    justify-content: center;
 	height: 90px;
 	padding: 0 5%;
 }
 
 .nav {
     align-items: center;
+    justify-content: center;
   }
 
 .nav ul {
     align-items: center;
+    justify-content: center;
 	list-style: none;
 	display: flex;
 	gap: 60px;

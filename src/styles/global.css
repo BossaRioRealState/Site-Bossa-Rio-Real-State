@@ -24,3 +24,16 @@ a {
 @media screen and (max-width: 560px) {
 
 }
+
+.Start {
+    position: relative;
+  }
+  
+  .img-centered {
+    max-width: 50%; /* Ajuste conforme necessário para diminuir o tamanho */
+    max-height: 50%; /* Ajuste conforme necessário para diminuir o tamanho */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
