@@ -22,3 +22,16 @@
 .botao_home:hover {
     transform: scale(1.05);
 }
+
+.rectangle {
+    border-radius: 15px;
+    width: 225px; 
+    height: 330px; 
+    background-color: white; 
+    border: 2px solid white;
+    margin-top: 200px;
+}
+
+.small_logo {
+
+}

@@ -11,8 +11,7 @@ export default function Home() {
             <div style={{
                 position: "relative",
                 overflow: "hidden",
-                height: "1254px", // Initial height
-                width: "100%",
+                height: "100vh", // Initial height
                 textAlign: "center",
                 display: "flex",
                 justifyContent: "center",
@@ -21,16 +20,14 @@ export default function Home() {
                 <div
                     style={{
                     position: "absolute",
-                    top: "0",
-                    right: "0",
-                    bottom: "0",
-                    left: "0",
+                    top: "-15%",
+                    left:"0",
                     backgroundImage: "url(/images/Home/background1.jpg)",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     opacity:0.6,
-                    backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
+                    
+                    height: "115%", // 100% height to cover the entire div
                     width: "100%",
                     zIndex: "1",
                     }}
@@ -48,8 +45,8 @@ export default function Home() {
                         src="/images/logo.png"
                         alt="Logo Bossa rio"
                         className="img-center"
-                        height="250px"
-                        style={{ marginTop: '200px'}}
+                        height="30%"
+                        style={{ marginTop: '60%'}}
                     />
                     
                     <div className="container_botao_home">
@@ -64,8 +61,7 @@ export default function Home() {
             <div style={{
                 position: "relative",
                 overflow: "hidden",
-                height: "800px", // Initial height
-                width: "100%",
+                height: "100vh", // Initial height
                 textAlign: "center",
                 display: "flex",
                 justifyContent: "center",
@@ -121,7 +117,7 @@ export default function Home() {
                         <Texto>
                             <h2>Porque trabalhar conosco</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
+
                             <ul>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
@@ -133,8 +129,142 @@ export default function Home() {
                     
                 </div>
             </div>
+            <div style={{
+                position: "relative",
+                overflow: "hidden",
+                height: "100vh", // Initial height
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+                alignContent: "center",
+                }}>
+                <div
+                    style={{
+                    position: "absolute",
+                    top: "0",
+                    right: "0",
+                    bottom: "0",
+                    left: "0",
+                    backgroundImage: "url(/images/Home/background2.jpg)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    opacity:0.6,
+                    backgroundPosition: "center",
+                    height: "100%", // 100% height to cover the entire div
+                    width: "100%",
+                    zIndex: "1",
+                    }}
+                ></div>
+                <div>
+                    <Texto>
+                        <p>Teste</p>
+                    </Texto>
+                </div>
+                <div
+                    style={{
+                        textAlign: "center",
+                        display: "grid",
+                        gridTemplateColumns: "repeat(4, 1fr)",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2",
+                        gridGap:"25px",
+                }}>
+                    <div class="rectangle"
+                    style={{
+                        color:"white",
+                        textAlign: "center",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2"}}>
+                        <div style={{alignContent: "center",}} class="small_logo">
+                            <img
+                                src="/images/Home/logo1.png"
+                                alt="Logo1"
+                                className="img-center"
+                                width="25%"
+                                style={{
+                                    marginTop: "12%",}}
+                            />
+                        </div>
+                        <Texto>
+                            <h1>Lorem ipsum.</h1>
+                        </Texto>
+                        <Texto>
+                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                        </Texto>
+                    </div>
+                    <div class="rectangle"
+                    style={{
+                        textAlign: "center",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2"}}>
+                            <div style={{alignContent: "center",}} class="small_logo">
+                            <img
+                                src="/images/Home/logo2.png"
+                                alt="Logo1"
+                                className="img-center"
+                                width="25%"
+                                style={{
+                                    marginTop: "12%",}}
+                            />
+                            </div>
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                    </div>
+                        <div class="rectangle"
+                        style={{
+                            textAlign: "center",
+                            justifyContent: "center",
+                            alignContent: "center",
+                            zIndex: "2"}}>
+                            <div style={{alignContent: "center",}} class="small_logo">
+                                <img
+                                    src="/images/Home/logo3.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",}}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                        </div>
+                    <div class="rectangle"
+                    style={{
+                        textAlign: "center",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2"}}>
+                            <div style={{alignContent: "center",}} class="small_logo">
+                                <img
+                                    src="/images/Home/logo4.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",}}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        
     )
 }
