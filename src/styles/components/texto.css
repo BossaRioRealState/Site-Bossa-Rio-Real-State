@@ -8,8 +8,8 @@
 
 .Texto>h2 {
     font-family: Libre Baskerville;
-    text-align: center;
-    font-size: 56px;
+    text-align: left;
+    font-size: 40px;
     font-weight: bold;
     color: #045570;
 }
@@ -24,7 +24,17 @@
 
 .Texto p {
     font-family: Libre Baskerville;
-    text-align: center;
+    text-align: left;
+    text-justify: auto;
+    font-size: 24px;
+    color: #045570;
+
+    padding-bottom: 1%;
+}
+
+.Texto ul {
+    font-family: Libre Baskerville;
+    text-align: left;
     font-size: 24px;
     color: #045570;
     padding-left: 10%;

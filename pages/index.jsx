@@ -91,36 +91,46 @@ export default function Home() {
                 <div
                     style={{
                         textAlign: "center",
-                        display: "flex",
+                        display: "grid",
+                        gridTemplateColumns: "repeat(2, 1fr)",
                         justifyContent: "center",
                         alignContent: "center",
                         zIndex: "2"
                 }}>
-                    <Center>
-                    <div className="texto_porque_trabalhar">
-                    <img
-                        src="/images/Home/interior.jpg"
-                        alt="Logo Bossa rio"
-                        className="img-center"
-                        height="350px"
-                        style={{
-                            borderRadius: "15px",
-                            marginTop:'225px',
-                            marginRight: '600px'}}
-                    />
-                    <Texto>
-                        <h2>Duas décadas de excelência</h2>
-                        <hr/>
-                        <p>Com um histórico de mais de 20 anos, nossa marcenaria é sinônimo de excelência e qualidade. Trabalhamos com uma ampla variedade de materiais, aplicando nosso onhecimento para transformar madeira em peças funcionais e esteticamente atraentes.</p>
-
-                        <p>Trabalhamos com todos os tipos de sinteco, tanto o tradicional quanto o de bona, além de poliuretano, polimentos de pedras e muito mais, servindo a sua necessidade.</p>
-
-                        <p>Ao longo dos anos, conquistamos a confiança de muitos clientes e fizemos partes de muitos projetos. Independente de sua ideia, sempre teremos uma solução diferenciada para você.</p>
-                        
-                    </Texto>
+                    <div style={{
+                        textAlign: "center",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2"}}>
+                        <img
+                            src="/images/Home/interior.jpg"
+                            alt="Logo Bossa rio"
+                            className="img-center"
+                            height="350px"
+                            style={{
+                                borderRadius: "15px",
+                                marginTop:'100px',
+                                marginRight: '-150px'}}
+                        />
+                    </div>
+                    <div style={{
+                        textAlign: "center",
+                        justifyContent: "center",
+                        alignContent: "center",
+                        zIndex: "2"}}>
+                        <Texto>
+                            <h2>Porque trabalhar conosco</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                            <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            </ul>
+                        </Texto>
                     </div>
 
-                    </Center>
+                    
                 </div>
             </div>
         </div>
