@@ -132,9 +132,8 @@ export default function Home() {
             <div style={{
                 position: "relative",
                 overflow: "hidden",
-                height: "100vh", // Initial height
+                height: "110vh", // Initial height
                 textAlign: "center",
-                display: "flex",
                 justifyContent: "center",
                 alignContent: "center",
                 }}>
@@ -152,23 +151,41 @@ export default function Home() {
                     backgroundPosition: "center",
                     height: "100%", // 100% height to cover the entire div
                     width: "100%",
-                    zIndex: "1",
+                    zIndex: "0",
                     }}
                 ></div>
-                <div>
-                    <Texto>
-                        <p>Teste</p>
-                    </Texto>
+
+                <div style={{zIndex: "2",
+                    width:"50%",
+                    marginTop:"5%",
+                    marginLeft:"5%"}}>
+                    <div>
+                        <Texto>
+                            <p2>SERVIÇOS</p2>
+                        </Texto>      
+                    </div>
+                    <div style={{marginTop:"-4%", marginLeft:"8%",}}>
+                        <Texto>
+                            <h2>O que temos a oferecer</h2>
+                        </Texto>
+                    </div>
+                    <div style={{marginTop:"-4%", marginLeft:"8%",}}>
+                        <Texto>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.</p>
+                        </Texto>
+                    </div>
                 </div>
+
                 <div
                     style={{
                         textAlign: "center",
-                        display: "grid",
+                        display:"flex",
                         gridTemplateColumns: "repeat(4, 1fr)",
                         justifyContent: "center",
                         alignContent: "center",
                         zIndex: "2",
                         gridGap:"25px",
+                        marginTop:"-10%",
                 }}>
                     <div class="rectangle"
                     style={{
@@ -264,6 +281,7 @@ export default function Home() {
                             </Texto>
                     </div>
                 </div>
+                
             </div>
         </div>
     )

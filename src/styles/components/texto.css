@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 15px;
     padding: 2% 0;
+    z-index: 3;
 }
 
 .Texto>h1 {
@@ -12,6 +13,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #045570;
+    z-index: 3;
 }
 
 .Texto p1 {
@@ -23,6 +25,7 @@
     margin-left: 8%;
     margin-top: 5%;
     margin-right: 8%;
+    z-index: 3;
 }
 
 .Texto>h2 {
@@ -31,7 +34,9 @@
     font-size: 40px;
     font-weight: bold;
     color: #045570;
+    z-index: 3;
 }
+
 
 .Texto hr {
     font-family: Libre Baskerville;
@@ -39,6 +44,7 @@
     margin: 0 auto;
     background-color: #045570;
     border: 1px solid #045570;
+    z-index: 3;
 }
 
 .Texto p {
@@ -47,7 +53,7 @@
     text-justify: auto;
     font-size: 24px;
     color: #045570;
-
+    z-index: 3;
     padding-bottom: 1%;
 }
 
@@ -59,4 +65,18 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 1%;
+    z-index: 3;
+}
+
+
+.Texto p2 {
+    font-family: Libre Baskerville;
+    text-align: left;
+    font-size: 18px;
+    color: #045570;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
+    z-index: 3;
+    font-weight: bold;
 }
