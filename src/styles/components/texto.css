@@ -1,4 +1,5 @@
 .Texto {
+    color: #045570;
     display: flex;
     font-family: Libre Baskerville;
     flex-direction: column;
@@ -12,6 +13,17 @@
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    color: #045570;
+    z-index: 3;
+}
+
+.Texto>h3 {
+    font-family: Libre Baskerville;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
     color: #045570;
     z-index: 3;
 }
@@ -38,12 +50,22 @@
 }
 
 
-.Texto hr {
+.Texto hr{
     font-family: Libre Baskerville;
-    width: 50%;
-    margin: 0 auto;
+    text-justify: left;
+    width: 8%;
+    margin-left: 27%;
     background-color: #045570;
-    border: 1px solid #045570;
+    border: 3px solid #045570;
+    z-index: 3;
+}
+
+.Texto hr2{
+    font-family: Libre Baskerville;
+    text-justify: left;
+    width: 8%;
+    background-color: #045570;
+    border: 3px solid #045570;
     z-index: 3;
 }
 
@@ -80,3 +102,13 @@
     z-index: 3;
     font-weight: bold;
 }
+
+.Texto p3 {
+    font-family: Libre Baskerville;
+    text-align: justify;
+    font-size: 24px;
+    color: #045570;
+    z-index: 3;
+    font-weight: bold;
+}
+

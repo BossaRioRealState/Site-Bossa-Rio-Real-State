@@ -283,6 +283,73 @@ export default function Home() {
                 </div>
                 
             </div>
+            <div style={{
+                display:"grid",
+                position: "relative",
+                overflow: "hidden",
+                height: "130vh", // Initial height
+                }}>
+                <div
+                    style={{
+                    position: "absolute",
+                    top: "0",
+                    left: "0",
+                    backgroundImage: "url(/images/Home/background3.png)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    opacity:1,
+                    backgroundPosition: "center",
+                    height: "100%", // 100% height to cover the entire div
+                    width: "100%",
+                    zIndex: "0",
+                    }}
+                ></div>
+                <div style={{marginTop:"15%",
+                            marginLeft:"8%",
+                            width:"50%"}}>
+                    <div style={{marginTop:"4%", marginLeft:"8%",}}>
+                        <Texto>
+                            <hr/>
+                            <h2>Concierge 360</h2>
+                            <hr2/>
+                        </Texto>
+                    </div>
+                    <div style={{marginTop:"-3%", marginLeft:"8%",}}>
+                        <Texto>
+                            <p3>Além de buscar imóveis baseados nas suas necessidades, oferecemos uma assessoria completa e personalizada em todo o processo de compra, reforma e venda dos imóveis, auxiliando com:</p3>
+                            <ul>
+                            <li><p3>Arquitetura;</p3></li>
+                            <li><p3>Design e Decoração;</p3></li>
+                            <li><p3>Personal Shopper;</p3></li>
+                            <li><p3>Personal Organizer;</p3></li>
+                            <li><p3>Jurídico e burocrático.</p3></li>
+                            </ul>
+                        </Texto>
+                    </div>
+                    
+                </div>
+                <div style={{textAlign: "right",
+                        justifyContent: "right",
+                        alignContent: "right",
+                        zIndex:3,
+                        marginTop:"-31%",
+                        marginRight:"5%"}}>
+                        <img
+                                        src="/images/Home/quarto.png"
+                                        className="img-room"
+                                        width="25%"
+                                        style={{}}
+                                    />
+                </div>
+                <div className="frase_disney">
+                            
+                </div>
+                <div style={{marginTop:"-11%"}}>
+                <Texto>
+                    <h3>“Você pode sonhar, criar, desenhar e construir o lugar mais maravilhoso do mundo. Mas é necessário ter pessoas para transformar seu sonho em realidade.’’ - Walt Disney</h3>
+                </Texto>
+                </div>
+            </div>
         </div>
     )
 }
