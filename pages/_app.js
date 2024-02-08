@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import "src/styles/components/texto.css"
 import "src/styles/pages/index.css"
+import "src/styles/pages/clientes.css"
 import "src/styles/global.css"
 import "src/styles/components/backgroundimage.css"
 import "src/styles/components/header.css"

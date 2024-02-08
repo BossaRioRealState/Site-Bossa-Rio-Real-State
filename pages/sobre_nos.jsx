@@ -90,7 +90,7 @@ export default function sobre_nos() {
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
-                                        width="100%"
+                                        width="90%"
                                         style={{}}
                                     />
                         <Texto>
@@ -104,7 +104,7 @@ export default function sobre_nos() {
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
-                                        width="100%"
+                                        width="90%"
                                         style={{}}
                                     />
                         <Texto>
@@ -118,7 +118,7 @@ export default function sobre_nos() {
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
-                                        width="100%"
+                                        width="90%"
                                         style={{}}
                                     />
                         
