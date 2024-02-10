@@ -25,3 +25,49 @@ header {
     align-items: center;
 	font-size: 23px;
 }
+
+/* Estilos para a barra de navegação móvel */
+.nav-idiom {
+	border-radius: 20px;
+	position: fixed;
+	display: none;
+	width: 80vw;
+	height: 130px;
+	max-width: 400px;
+	right: 40px;
+	background-color: rgb(255, 255, 255);
+	flex-direction: column;
+	align-items: center;
+	margin-left: -20px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 0px #888888;
+}
+
+.nav-idiom ul {
+	gap: 20px;
+	width: 100%;
+	height: 100%;
+	list-style: circle;
+	padding: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-idiom li {
+	height: 100%;
+	width: 100%;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.nav-idiom li a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}

@@ -37,3 +37,11 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.nav-idiom {
+    display: none;
+}
+
+.nav-idiom.active {
+    display: block;
+}
