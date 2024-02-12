@@ -19,7 +19,6 @@
     align-items: center;
     padding-top:6%;
     padding-bottom:4%;
-    align-items: center;
     margin-left: 30px;
 }
   
@@ -37,21 +36,20 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
     background-color: transparent;
+    margin-bottom: -720px;
 }
 
 .prev-button img{
     transform: scaleX(-1);
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     opacity: 0.6;
 }
 
 .next-button  img{
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     opacity: 0.6;
 }
 
@@ -61,10 +59,15 @@
 
 .next-button {
     justify-content: right;
-    margin-left: 10px;
 }
   
 /* Apartir daqui se refere a mudança de imagem */
+
+.teste {
+    display: absolute;
+    text-align: center;
+    align-content: center;
+}
 
 .carousel-container-img {
     height:400px;
@@ -87,12 +90,8 @@
 }
 
 .next-button-img {
-    align-items: right;
-    text-align: "right";
-    justify-content: right;
     border: none;
     cursor: pointer;
-    
     background-color: transparent;
 }
 
@@ -110,14 +109,16 @@
 }
 
 .prev-button-img {
-    margin-right: 0px;
+    margin-right: -60px;
 }
 
 .next-button-img {
-    margin-right: 0px;
+    margin-left: -60px;
 }
 
-.carousel-container-img p {
+/* Referente aos textos */
+
+.text p {
     font-family: Libre Baskerville;
     text-align: justify;
     text-justify: auto;
@@ -126,4 +127,31 @@
     z-index: 3;
     padding-right: 5%;
     padding-left: 5%;
+}
+
+.text ul {
+    padding: 5%;
+    font-family: Libre Baskerville;
+    text-align: left;
+    font-size: 24px;
+    color: #045570;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    z-index: 3;
+    line-height: 2.5;
+    
+}
+
+.text p1 {
+    font-family: Libre Baskerville;
+    text-align: left;
+    font-size: 20px;
+    z-index: 3;
+    color: #045570;
+    
+}
+
+.address {
+    line-height: 1;
 }

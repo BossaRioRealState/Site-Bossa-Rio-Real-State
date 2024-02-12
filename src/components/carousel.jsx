@@ -26,14 +26,27 @@ const Carousel = (props) => {
                     <h2>{props.slides[currentIndex][1][0]}</h2>
                 </div>
                 <div class='carousel-container-img' style={{display:"grid", gridTemplateColumns: "repeat(2, 1fr)",marginTop:"50px"}}>
-                    <div>
+                    <div class="image">
+                        <button className='prev-button-img' onClick={goToPrevSlide_img}>
+                            <img src="images/right-arrow.png"/>
+                        </button>
                         {props.slides[currentIndex][0][currentIndex_img]}
+                        <button className='next-button-img' onClick={goToNextSlide_img}>
+                            <img src="images/right-arrow.png"/>
+                        </button>
                     </div>
-                    <div>
+                    <div class="text">
                         <p>{props.slides[currentIndex][1][1]}</p>
+                        <ul>
+                                <li>Quartos: {props.slides[currentIndex][1][2]}</li>
+                                <li>Banheiros: {props.slides[currentIndex][1][3]}</li>
+                                <li><div class="address">
+                                    Localização: <p1>{props.slides[currentIndex][1][4]}</p1>
+                                </div></li>
+                        </ul>
                     </div>
                 </div>
-            </div>   
+            </div>
         )
     }
 
@@ -57,15 +70,9 @@ const Carousel = (props) => {
 
     const renderSlide = () => {
         return (
-          <div>
-            <button className='prev-button-img' onClick={goToPrevSlide_img}>
-                    <img src="images/right-arrow.png"/>
-            </button>
+            <div>
                 {renderSlide_img()}
-            <button className='next-button-img' onClick={goToNextSlide_img}>
-                <img src="images/right-arrow.png"/>
-            </button>
-          </div>
+            </div>
         )
     }
 

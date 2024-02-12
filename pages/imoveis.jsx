@@ -53,7 +53,7 @@ export default function vendas() {
                 <div class="carousel_background">
                     <Carousel slides={slides} />
                     <div class="container_botao_contato">
-                        <a href="/vendas" class="botao_contato">
+                        <a href="/imóveis" class="botao_contato">
                             Entre em Contato!
                         </a>
                     </div>
