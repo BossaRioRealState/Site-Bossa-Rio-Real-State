@@ -1,0 +1,15 @@
+.carousel_background {
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: bold;
+    opacity: 0.6;
+    align-self: "center";
+    font-family: Libre Baskerville;
+    background-color: #ffffff;
+    color: #045570;
+    padding: 3%;
+    z-index: 3;
+}

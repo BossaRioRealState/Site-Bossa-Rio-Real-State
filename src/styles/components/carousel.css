@@ -1,0 +1,47 @@
+.carousel-container {
+    height:400px;
+    display: flex;
+    justify-content: left;
+    padding-top:6%;
+    padding-bottom:4%;
+    align-items: center;
+    margin-left: 30px;
+}
+  
+.carousel-container img {
+    border-radius: 20px;
+    height:400px;
+    width:600px;
+}
+
+.prev-button, .next-button {
+    height: 60px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.prev-button img{
+    transform: scaleX(-1);
+    height: 60px;
+    width: 60px;
+}
+
+.next-button  img{
+    height: 60px;
+    width: 60px;
+}
+
+.prev-button {
+    margin-right: -70px;
+}
+
+.next-button {
+    margin-left: -70px;
+}
+  

@@ -1,12 +1,15 @@
 import Head from "next/head"
 
-import "src/styles/components/texto.css"
 import "src/styles/pages/index.css"
+import "src/styles/pages/vendas.css"
 import "src/styles/pages/clientes.css"
-import "src/styles/global.css"
-import "src/styles/components/backgroundimage.css"
+
+import "src/styles/components/texto.css"
 import "src/styles/components/header.css"
 import "src/styles/components/footer.css"
+import "src/styles/components/carousel.css"
+
+import "src/styles/global.css"
 
 export default function App({ Component, pageProps }) {
     return (
