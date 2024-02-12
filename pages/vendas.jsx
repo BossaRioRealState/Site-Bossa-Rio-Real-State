@@ -6,8 +6,16 @@ import Texto from "src/components/Texto";
 import Carousel from 'src/components/carousel';
 
 const slides = [
-    <img src='/images/Home/background1.jpg' alt='Slide 1' />,
-    <img src='/images/Home/background2.jpg' alt='Slide 2' />,
+    [
+        [<img src='/images/Home/background1.jpg' alt='Slide 1' />,
+        <img src='/images/Home/background2.jpg' alt='Slide 2' />,],
+        ["Casa ampla no leblom","Casa charmosa localizada no bairro do Leblon, com ampla cozinha integrada à sala de estar, perfeita para um ambiente de integração com a família e amigos."]
+    ],
+    [
+        [<img src='/images/Home/background2.jpg' alt='Slide 1' />,
+        <img src='/images/Home/background1.jpg' alt='Slide 2' />,],
+        ["Casa Barra da Tijuca","Casa charmosa localizada no bairro do Leblon, com ampla cozinha integrada à sala de estar, perfeita para um ambiente de integração com a família e amigos."]
+    ]
   ];
 
 export default function vendas() {
@@ -18,11 +26,8 @@ export default function vendas() {
             <div style={{
                 position: "relative",
                 overflow: "hidden",
-                height: "100vh", // Initial height
-                textAlign: "center",
+                height: "120vh", // Initial height
                 display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
                 paddingTop: "10%",
                 paddingBottom: "5%"
                 }}>
@@ -41,7 +46,7 @@ export default function vendas() {
                     zIndex: "1",
                     }}
                 ></div>
-                <div class="carousel_background" style={{display:"grid", gridTemplateColumns: "repeat(2, 1fr)",}}>
+                <div class="carousel_background">
                     <Carousel slides={slides} />
                 </div>
             </div>
