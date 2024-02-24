@@ -9,7 +9,7 @@ const slides = [
     [
         [<img src='/images/imoveis/leblom1.jpg' alt='Slide 1' />,
         <img src='/images/imoveis/leblom2.jpg' alt='Slide 2' />,],
-        ["Casa ampla no leblom",
+        ["Casa ampla no leblon",
         "Casa charmosa localizada no bairro do Leblon, com ampla cozinha integrada à sala de estar, perfeita para um ambiente de integração com a família e amigos.",
         "2","2"," Rua tal, 1234 - Leblon, Rio de Janeiro","/vendas"]
     ],

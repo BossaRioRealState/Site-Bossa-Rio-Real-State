@@ -6,21 +6,51 @@ import Texto from "src/components/Texto";
 import Carousel from 'src/components/carousel';
 
 const slides = [
-    [
-        [<img src='/images/imoveis/leblom1.jpg' alt='Slide 1' />,
-        <img src='/images/imoveis/leblom2.jpg' alt='Slide 2' />,],
-        ["Casa ampla no leblom",
-        "Casa charmosa localizada no bairro do Leblon, com ampla cozinha integrada à sala de estar, perfeita para um ambiente de integração com a família e amigos.",
-        "2","2"," Rua tal, 1234 - Leblon, Rio de Janeiro","/vendas"]
+    [ 
+        [],
+        ["Apartamento reformado no Leblon",
+        "Quadra da praia, 165m2, apartamento reformado, varanda, lavabo, banheiro social. Cozinha, área e dependência completa. Portaria 24hrs, play com piscina. Um apartamento por andar.",
+        "Quartos", "3, sendo 1 suíte;",
+        "Valor", "4M;",
+        "Condomínio", "média 4.000;",
+        "Endereço","Cupertino Durão, Leblon, Rio de Janeiro-RJ."]
     ],
     [
-        [<img src='/images/imoveis/barra2.jpg' alt='Slide 1' />,
-        <img src='/images/imoveis/barra1.jpg' alt='Slide 2' />,],
-        ["Casa Barra da Tijuca",
-        "Casa charmosa localizada no bairro do Leblon, com ampla cozinha integrada à sala de estar, perfeita para um ambiente de integração com a família e amigos.",
-        "3","3"," Rua X, 1114 - Barra da Tijuca, Rio de Janeiro","/vendas"]
-    ]
+        [],
+        ["ALINY VENDA LEBLON",
+        "Hall, sala de estar sala jantar, varanda aberta, sala de TV, lavabo. Na parte íntima do imóvel, 1 closet, 1 banheiro, armários embutidos. Parte de serviço com cozinha, planejada, copa, despensa, louceiro, área de serviço, rouparia, dependência de empregada, banheiro de empregada. Imóvel reformado, impecável 2 vagas de garagem. Com ótimo padrão de acabamento.",
+        "Quartos", "4 quartos, sendo 2 suítes",
+        "Espaco","194m²",
+        "Valor", "4.300.000",
+        "Condomínio", "Bicicletário, playground, portaria 24 horas.",]
+    ],
+    [ 
+        [],
+        ["Quadrilátero Rua Barão de jaguaripe",
+        "Armários Florense, 2 vagas, closet",
+        "Condomínio", "Porteiro 24h",
+        "Área", "130m2",
+        "Quartos", "3 quartos sendo 1 suite",
+        "Venda", "3.8M",]
+    ],
   ];
+
+for (let i = 1; i <= 15; i++) {
+    slides[0][0].push(
+        <img src={`/images/imoveis/cupertino/${i}.jpg`} alt={`Slide ${i}`} />);
+}
+
+for (let i = 1; i <= 21; i++) {
+    slides[1][0].push(
+        <img src={`/images/imoveis/aliny-leblon/aliny-leblon (${i}).jpg`} alt={`Slide ${i}`} />);
+}
+
+for (let i = 1; i <= 10; i++) {
+    slides[2][0].push(
+        <img src={`/images/imoveis/jaguaribe/barao-jaguaribe (${i}).jpg`} alt={`Slide ${i}`} />);
+}
+
+
 
 export default function vendas() {
 

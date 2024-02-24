@@ -1,36 +1,32 @@
-.container_botao_home{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    opacity: 0.6;
-}
-
 .container_frase_disney{
     display: flex;
+    width: 100%;
+    height: 110px;
     justify-content: center;
-    margin-top: 5%;
-    opacity: 0.6;
+    background-color: #D4A23F;;
 }
 
 .frase_disney {
-    width: 100%;
-    height: 60px;
     justify-content: center;
     font-size: 24px;
     text-align: justify;
     font-weight: bold;
-    opacity: 0.6;
     align-self: "center";
     font-family: Libre Baskerville;
-    background-color: #D4A23F;
     color: #045570;
-    padding: 3%;
     z-index: 3;
+}
+
+.container_botao_home{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    opacity: 0.8;
 }
 
 .botao_home {
     display: flex;
-    width: 250px;
+    width: 300px;
     justify-content: center;
     font-size: 24px;
     align-self: "center";
@@ -39,6 +35,7 @@
     border-radius: 15px;
     color: #E1DFDB;
     transition: transform 1s;
+    margin-top: 25%;
     padding: 7% 1%;
 }
 

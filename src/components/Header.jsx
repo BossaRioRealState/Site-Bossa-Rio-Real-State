@@ -29,7 +29,7 @@ export default function Header(){
                                 <li className="opcao_header"><a href="/">Home</a></li>
                                 <li className="opcao_header"><a href="/imoveis">Imóveis</a></li>
                                 <li className="opcao_header"><a href="/clientes">Clientes</a></li>
-                                <li className="opcao_header"><a href="/vendas">Vendas</a></li>
+                                {/* <li className="opcao_header"><a href="/vendas">Vendas</a></li> */}
                                 <li className="opcao_header"><a href="/sobre_nos">Sobre nós</a></li>
                                 <li className="opcao_header"><a href="/Contatos">Contatos</a></li>
                                 <li className="opcao_header" onClick={toggleIdiomMenu}>Idioma

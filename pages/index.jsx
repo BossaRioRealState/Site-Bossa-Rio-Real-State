@@ -11,7 +11,7 @@ export default function Home() {
             <div style={{
                 position: "relative",
                 overflow: "hidden",
-                height: "100vh", // Initial height
+                height: "135vh", // Initial height
                 textAlign: "center",
                 display: "flex",
                 justifyContent: "center",
@@ -20,7 +20,7 @@ export default function Home() {
                 <div
                     style={{
                     position: "absolute",
-                    top: "-15%",
+                    top: "-5%",
                     left:"0",
                     backgroundImage: "url(/images/Home/background1.jpg)",
                     backgroundRepeat: "no-repeat",
@@ -45,8 +45,8 @@ export default function Home() {
                         src="/images/logo.png"
                         alt="Logo Bossa rio"
                         className="img-center"
-                        height="30%"
-                        style={{ marginTop: '60%'}}
+                        height="35%"
+                        style={{ marginTop: '35%'}}
                     />
                     
                     <div className="container_botao_home">
@@ -316,13 +316,13 @@ export default function Home() {
                     </div>
                     <div style={{marginTop:"-3%", marginLeft:"8%",}}>
                         <Texto>
-                            <p3>Além de buscar imóveis baseados nas suas necessidades, oferecemos uma assessoria completa e personalizada em todo o processo de compra, reforma e venda dos imóveis, auxiliando com:</p3>
+                            <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
                             <ul>
-                            <li><p3>Arquitetura;</p3></li>
-                            <li><p3>Design e Decoração;</p3></li>
-                            <li><p3>Personal Shopper;</p3></li>
-                            <li><p3>Personal Organizer;</p3></li>
-                            <li><p3>Jurídico e burocrático.</p3></li>
+                                <li><p3>Arquitetura, Design e Decoração;</p3></li>
+                                <li><p3>Personal Shopper Home;</p3></li>
+                                <li><p3>Personal Organizer</p3></li>
+                                <li><p3>Jurídico e burocrático; </p3></li>
+                                <li><p3>Auxílio na comunicação, contratação e acompanhamento de todos os processos citados.</p3></li>
                             </ul>
                         </Texto>
                     </div>
@@ -341,13 +341,12 @@ export default function Home() {
                                         style={{}}
                                     />
                 </div>
-                <div className="frase_disney">
-                            
-                </div>
-                <div style={{marginTop:"-11%"}}>
-                <Texto>
-                    <h3>“Você pode sonhar, criar, desenhar e construir o lugar mais maravilhoso do mundo. Mas é necessário ter pessoas para transformar seu sonho em realidade.’’ - Walt Disney</h3>
-                </Texto>
+                <div class="container_frase_disney">
+                    <div class="frase_disney">
+                        <Texto>
+                            <h3>“Você pode sonhar, criar, desenhar e construir o lugar mais maravilhoso do mundo. Mas é necessário ter pessoas para transformar seu sonho em realidade.’’ - Walt Disney</h3>
+                        </Texto> 
+                    </div> 
                 </div>
             </div>
             <Footer />
