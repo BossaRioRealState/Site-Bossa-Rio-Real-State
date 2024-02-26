@@ -4,7 +4,7 @@ import Texto from "src/components/Texto"
 
 export default function Footer() {
     return (
-        <div className="Footer" style={{display:"grid"}}>
+        <div className="Footer" style={{display:"grid"}} id="footer">
             <Center>
                 <footer>
                     <div style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)"}}>
