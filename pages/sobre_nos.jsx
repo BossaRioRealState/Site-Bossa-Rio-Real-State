@@ -20,19 +20,13 @@ export default function sobre_nos() {
                 <div
                     style={{
                     position: "absolute",
-                    top: "0",
-                    right: "0",
-                    bottom: "0",
-                    left: "0",
-                    backgroundImage: "url(/images/Home/background2.jpg)",
-                    
+                    backgroundImage: "url(/images/background-sobre-nos.jpg)",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    opacity:0.4,
+                    opacity:0.6,
                     backgroundPosition: "center",
                     height: "100%", // 100% height to cover the entire div
                     width: "100%",
-                    zIndex: "1",
                     }}
                 ></div>
                 <div style={{marginTop:"10%", marginLeft:"10%",}}>
@@ -77,56 +71,82 @@ export default function sobre_nos() {
                 </div>
                 <div
                     style={{
+                        height: "130px",
+                        width:"100%",
+                        backgroundColor:"white",
                         textAlign: "center",
                         display: "grid",
                         gridTemplateColumns: "repeat(3, 350px)",
                         justifyContent: "center",
                         alignItems:"center",
-                        zIndex: "2",
+                        zIndex: "4",
                         marginTop:"130px",
                 }}>
-                    <div style={{width:"300px"}}>
+                    <div style={{width:"300px",zIndex: "3"}}>
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
                                         width="90%"
                                         style={{}}
                                     />
+                        <div class="rectangle_sobre_nos"
+                        style={{
+                            color:"white",
+                            textAlign: "center",
+                            justifyContent: "center",
+                            alignContent: "center",
+                            zIndex: "2"}}>
                         <Texto>
                             <h1>Lorem ipsum.</h1>
                         </Texto>
                         <Texto>
                             <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
                         </Texto>
+                        </div>
                     </div>
-                    <div style={{width:"300px"}}>
+                    <div style={{width:"300px",zIndex: "3"}}>
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
                                         width="90%"
                                         style={{}}
                                     />
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
+                        <div class="rectangle_sobre_nos"
+                            style={{
+                                color:"white",
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"}}>
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                        </div>
                     </div>
-                    <div style={{width:"300px"}}>
+                    <div style={{width:"300px",zIndex: "3"}}>
                         <img
                                         src="/images/Home/quarto.png"
                                         className="img-room"
                                         width="90%"
                                         style={{}}
                                     />
-                        
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
+                        <div class="rectangle_sobre_nos"
+                            style={{
+                                color:"white",
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"}}>         
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                        </div>
                     </div>
                 </div>
             </div>

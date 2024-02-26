@@ -109,6 +109,7 @@
 
 .text {
     width:650px;
+    overflow-y: auto;
 }
 
 .text p {

@@ -1,0 +1,9 @@
+.rectangle_sobre_nos {
+    border-radius: 15px;
+    width: 100%; 
+    height: 300px;
+    background-color: rgb(255, 255, 255,0.8);
+    padding: 5%;
+    margin-top:50px;
+    /* border: 2px solid white; */
+}

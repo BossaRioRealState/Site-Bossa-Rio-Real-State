@@ -33,6 +33,20 @@ const slides = [
         "Quartos", "3 quartos sendo 1 suite",
         "Venda", "3.8M",]
     ],
+    [ 
+        [],
+        ["Cobertura Praia de Ipanema",
+        "Quadra da Praia da Joana Angélica, Ipanema. Linda cobertura em localização nobre na quadrissima da praia. Totalmente reformada com  e bom acabamento, 527m², super clara e arejada, com vista livre.",
+        "1º pavimento" ,"hall de entrada, escada linear, 3 quartos sendo 1 suíte com closet e banheiros em ambientes separados. ",
+        
+        "2º pavimento" ,
+        "amplo salão em vários ambientes, sala de jantar, sala de estar, lavabo, cozinha gourmet, terraço com piscina, sauna e churrasqueira.",
+        
+        "3° pavimento",
+        "solarium com bar de apoio e vista incrível. Prédio bem administrado com portaria 24 horas e 2 vagas na escritura.",
+        
+        "Preço", "13M proprietária baixou para 10.9M, Condominio: 4.100,"]
+    ],
   ];
 
 for (let i = 1; i <= 15; i++) {
@@ -48,6 +62,11 @@ for (let i = 1; i <= 21; i++) {
 for (let i = 1; i <= 10; i++) {
     slides[2][0].push(
         <img src={`/images/imoveis/jaguaribe/barao-jaguaribe (${i}).jpg`} alt={`Slide ${i}`} />);
+}
+
+for (let i = 1; i <= 30; i++) {
+    slides[3][0].push(
+        <img src={`/images/imoveis/cobertura/cobertura (${i}).jpg`} alt={`Slide ${i}`} />);
 }
 
 
