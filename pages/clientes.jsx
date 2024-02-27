@@ -3,6 +3,8 @@ import Footer from "src/components/Footer"
 import Center from "src/components/Center"
 import Texto from "src/components/Texto";
 
+import Carousel_depoimentos from 'src/components/carousel_depoimentos';
+
 export default function clientes() {
 
     return (
@@ -23,7 +25,7 @@ export default function clientes() {
                     backgroundSize: "cover",
                     opacity:0.7,
                     backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
+                    height: "150%", // 100% height to cover the entire div
                     width: "100%",
                     zIndex: "0",
                     }}
@@ -41,7 +43,7 @@ export default function clientes() {
                         <h2>Depoimentos de<br></br>Clientes anteriores:</h2>
                     </Texto>
                 </div>
-                <div
+                {/* {<div 
                     style={{
                         display: "grid",
                         gridTemplateColumns: "repeat(2, 1fr)",
@@ -146,7 +148,8 @@ export default function clientes() {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <Carousel_depoimentos slides={[]}/>
             </div>
             <Footer />
         </div>

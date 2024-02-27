@@ -77,9 +77,9 @@ export default function Home() {
                     backgroundImage: "url(/images/Home/background2.jpg)",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    opacity:0.6,
+                    opacity:0.5,
                     backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
+                    height: "130%", // 100% height to cover the entire div
                     width: "100%",
                     zIndex: "1",
                     }}
@@ -113,10 +113,11 @@ export default function Home() {
                         textAlign: "center",
                         justifyContent: "center",
                         alignContent: "center",
-                        zIndex: "2"}}>
+                        zIndex: "2",
+                        paddingLeft:"5%"}}>
                         <Texto>
                             <h2>Porque trabalhar conosco</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Queremos tornar o processo de compra e venda de imóveis uma experiência diferenciada por meio de curadoria personalizada e atendimento único.</p>
 
                             <ul>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
@@ -144,12 +145,12 @@ export default function Home() {
                     right: "0",
                     bottom: "0",
                     left: "0",
-                    backgroundImage: "url(/images/Home/background2.jpg)",
+                    backgroundImage: "url(/images/Home/5.jpg)",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    opacity:0.6,
+                    opacity:0.4,
                     backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
+                    height: "170%", // 100% height to cover the entire div
                     width: "100%",
                     zIndex: "0",
                     }}
@@ -294,10 +295,10 @@ export default function Home() {
                         position: "absolute",
                         top: "0",
                         left: "0",
-                        backgroundImage: "url(/images/Home/background3.png)",
+                        backgroundImage: "url(/images/Home/background3.jpg)",
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
-                        opacity:1,
+                        opacity:0.5,
                         backgroundPosition: "center",
                         height: "100%", // 100% height to cover the entire div
                         width: "100%",

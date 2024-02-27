@@ -9,6 +9,7 @@ import "src/styles/components/texto.css"
 import "src/styles/components/header.css"
 import "src/styles/components/footer.css"
 import "src/styles/components/carousel.css"
+import "src/styles/components/carousel_depoimentos.css"
 
 import "src/styles/global.css"
 

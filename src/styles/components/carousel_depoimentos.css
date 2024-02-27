@@ -1,0 +1,32 @@
+.prev-button-depo, .next-button-depo {
+    height: 60px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 13%;
+}
+
+.prev-button-depo img{
+    transform: scaleX(-1);
+    height: 80px;
+    width: 80px;
+    opacity: 0.6;
+}
+
+.next-button-depo  img{
+    height: 80px;
+    width: 80px;
+    opacity: 0.6;
+}
+
+.prev-button-depo {
+    justify-content: left;
+}
+
+.next-button-depo {
+    justify-content: right;
+    margin-right: 15px;
+}

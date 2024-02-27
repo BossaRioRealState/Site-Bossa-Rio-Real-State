@@ -71,10 +71,10 @@ for (let i = 1; i <= 30; i++) {
 
 
 
-export default function vendas() {
+export default function imoveis() {
 
     return (
-        <div className="vendas">
+        <div className="imoveis">
             <Header />
             <div style={{
                 position: "relative",
