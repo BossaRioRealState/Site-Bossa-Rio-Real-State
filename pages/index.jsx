@@ -289,21 +289,21 @@ export default function Home() {
                 overflow: "hidden",
                 height: "130vh", // Initial height
                 }}>
-                <div
-                    style={{
-                    position: "absolute",
-                    top: "0",
-                    left: "0",
-                    backgroundImage: "url(/images/Home/background3.png)",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    opacity:1,
-                    backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
-                    width: "100%",
-                    zIndex: "0",
-                    }}
-                ></div>
+                    <div
+                        style={{
+                        position: "absolute",
+                        top: "0",
+                        left: "0",
+                        backgroundImage: "url(/images/Home/background3.png)",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover",
+                        opacity:1,
+                        backgroundPosition: "center",
+                        height: "100%", // 100% height to cover the entire div
+                        width: "100%",
+                        zIndex: "0",
+                        }}
+                    ></div>
                 <div style={{marginTop:"15%",
                             marginLeft:"8%",
                             width:"50%"}}>

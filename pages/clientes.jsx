@@ -17,11 +17,11 @@ export default function clientes() {
                 <div
                     style={{
                     position: "absolute",
-                    backgroundImage: "url(/images/clientes/background.png)",
+                    backgroundImage: "url(/images/clientes/background.jpg)",
                     
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    opacity:0.6,
+                    opacity:0.7,
                     backgroundPosition: "center",
                     height: "100%", // 100% height to cover the entire div
                     width: "100%",
@@ -33,7 +33,7 @@ export default function clientes() {
                             <hr/>
                             <h2>CLIENTES</h2>    
                             <hr2/>
-                            <p>Já que o melhor para atestar a nossa excelência<br></br> são nossos próprios clientes.</p>                 
+                            <p>Conheça as impressões de quem teve experiências com a Bossa Rio Real Estate.</p>                 
                         </Texto>
                 </div>
                 <div style={{ marginLeft:"10%",}}>
