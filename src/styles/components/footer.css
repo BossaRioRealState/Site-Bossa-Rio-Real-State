@@ -6,7 +6,8 @@
 footer {
     color: rgb(255, 255, 255);
     flex-direction: column;
+    height: 30px;
     align-items: center;
     width: 100%;
-    /* gap: 15px; */
+    gap: 15px;
 }

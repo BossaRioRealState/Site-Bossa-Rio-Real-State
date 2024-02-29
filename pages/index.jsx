@@ -119,11 +119,26 @@ export default function Home() {
                             <h2>Porque trabalhar conosco</h2>
                             <p>Queremos tornar o processo de compra e venda de imóveis uma experiência diferenciada por meio de curadoria personalizada e atendimento único.</p>
 
-                            <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            </ul>
+                            <div style={{display:"flex", gridTemplate:"repeat(2, 1fr)", gridGap:"100px", marginTop:"30px"}}>
+                                <div>
+                                    <ul>
+                                        <li>Ética</li>
+                                        <li>Respeito</li>
+                                        <li>Transparência</li>
+                                        <li>Comprometimento</li>
+                                        <li>Inovação</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                <ul>
+                                    <li>Discrição</li>
+                                    <li>Excelência</li>
+                                    <li>Determinação</li>
+                                    <li>Cooperação</li>
+                                    <li>Agilidade</li>
+                                </ul>
+                                </div>
+                            </div>
                         </Texto>
                     </div>
 
