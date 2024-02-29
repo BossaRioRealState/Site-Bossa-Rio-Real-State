@@ -10,6 +10,7 @@ header {
 
 .nav {
     align-items: center;
+	cursor: pointer;
     justify-content: center;
   }
 
@@ -26,6 +27,10 @@ header {
 	font-size: 23px;
 }
 
+.div {
+	cursor: pointer;
+}
+
 /* Estilos para a barra de navegação móvel */
 .nav-idiom {
 	border-radius: 20px;
@@ -34,7 +39,6 @@ header {
 	width: 80vw;
 	height: 130px;
 	max-width: 350px;
-	right: 40px;
 	background-color: rgb(255, 255, 255);
 	flex-direction: column;
 	align-items: center;
