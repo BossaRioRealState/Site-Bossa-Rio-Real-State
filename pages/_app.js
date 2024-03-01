@@ -13,6 +13,7 @@ import "src/styles/components/carousel_depoimentos.css"
 
 import "src/styles/global.css"
 
+
 export default function App({ Component, pageProps }) {
     return (
         <>
@@ -21,7 +22,7 @@ export default function App({ Component, pageProps }) {
 
                 {/*SEO(search engine otimization)*/}
                 <meta name="description" content="" />{/*Descrição para o site*/}
-                <meta name="keywords" content=""/>{/*Palavras chave separadas por vírgulas*/}
+                <meta name="keywords" content="" />{/*Palavras chave separadas por vírgulas*/}
                 <meta name="author" content="FGV Jr." />{/*Autor do site*/}
 
                 {/*SMO(social media otimization)*/}
@@ -31,7 +32,13 @@ export default function App({ Component, pageProps }) {
                 <meta property="og:url" content="" />
                 <meta property="og:image" content="" />
                 <meta property="og:image:type" content="image/" />
-            </Head>
+                <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+                <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></link>
+                <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet"></link>
+                </Head>
             <Component {...pageProps} />
         </>
     )

@@ -7,8 +7,26 @@
 
 html, body{
     height:100%;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
 }
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 
 /* Estilo para todos os links */
 a {

@@ -24,7 +24,7 @@ header {
 
 .nav li {
     align-items: center;
-	font-size: 23px;
+	font-size: 18px;
 }
 
 .div {
@@ -62,7 +62,7 @@ header {
 .nav-idiom li {
 	height: 100%;
 	width: 100%;
-	font-size: 24px;
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: left;

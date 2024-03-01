@@ -81,7 +81,7 @@ export default function sobre_nos() {
                         justifyContent: "center",
                         alignItems:"center",
                         zIndex: "4",
-                        marginTop:"130px",
+                        marginTop:"100px",
                 }}>
                     <div class="perfil_socias">
                         <img
