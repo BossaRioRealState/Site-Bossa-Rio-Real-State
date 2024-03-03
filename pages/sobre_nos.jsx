@@ -46,7 +46,7 @@ export default function sobre_nos() {
                         marginLeft:"6%"
                 }}>
                     <div style={{
-                        textAlign: "center",
+                        textAlign: "left",
                         alignContent: "center",
                         zIndex: "2", width:"80%"}}>
                         <Texto>
@@ -56,7 +56,7 @@ export default function sobre_nos() {
                             <p4>Através dos nossos contatos, curadoria de portfólio e know how em atendimento personalizado, agregamos um novo conceito para um público exigente e sofisticado.</p4>
                         </Texto>
                     </div>
-                    <div style={{
+                    {/* <div style={{
                         textAlign: "center",
                         alignContent: "center",
                         zIndex: "2", width:"80%"}}>
@@ -65,8 +65,7 @@ export default function sobre_nos() {
                             <p4>Visando atender as solicitações de referências no nicho imobiliário, de compra e venda de propriedades exclusivas, nasce a Bossa Rio Real Estate.</p4>
                             <p4>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens sonhos de cada um, tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p4>
                         </Texto>
-                    </div>
-
+                    </div> */}
                     
                 </div>
                 <div 

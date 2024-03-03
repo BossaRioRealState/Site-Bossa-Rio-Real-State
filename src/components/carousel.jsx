@@ -82,18 +82,18 @@ const Carousel = (props) => {
     }
 
     return (
-            <div className='carousel-container'>
-                <button className='prev-button' onClick={goToPrevSlide}>
-                    <img src="images/right-arrow.png" />
-                </button>
+        <div className='carousel-container'>
+            <button className='prev-button' onClick={goToPrevSlide}>
+                <img src="images/right-arrow.png" />
+            </button>
 
-                {renderSlide()}
+            {renderSlide()}
 
-                <button className='next-button' onClick={goToNextSlide}>
-                    <img src="images/right-arrow.png" />
-                </button>
+            <button className='next-button' onClick={goToNextSlide}>
+                <img src="images/right-arrow.png" />
+            </button>
 
-            </div>
+        </div>
     )
 }
 

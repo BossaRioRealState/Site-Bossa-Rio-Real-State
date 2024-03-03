@@ -52,3 +52,38 @@
     border: 2px solid white;
     margin-top: 200px;
 }
+
+.nossa_historia_background {
+    height:400px;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:6%;
+    padding-bottom:4%;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: #045570;
+    padding: 10%;
+    z-index: 5;
+}
+
+.nossa_historia {
+    height:400px;
+    width:100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-top:6%;
+    padding-bottom:4%;
+}
+  
+.nossa_historia p {
+    font-family: Libre Baskerville;
+    text-align:center;
+    text-justify: auto;
+    font-size: 34px;
+    color: #045570;
+    z-index: 3;
+    padding-bottom: 1%;
+}
+  

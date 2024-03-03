@@ -36,7 +36,7 @@ const Carousel = (props) => {
                             <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
 
                         </div>
-                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3", }}>
+                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3"}}>
                             <img
                                 src="/images/clientes/perfil.jpg"
                                 className="img-room"

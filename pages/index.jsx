@@ -82,8 +82,8 @@ export default function Home() {
                 ></div>
                 <div
                     style={{
-                        alignItems:"center",
-                        alignContent:"center",
+                        alignItems: "center",
+                        alignContent: "center",
                         textAlign: "center",
                         display: "grid",
                         gridTemplateColumns: "repeat(2, 1fr)",
@@ -115,10 +115,10 @@ export default function Home() {
                         alignContent: "center",
                         zIndex: "2",
                         paddingRight: "10%",
-                        marginTop:"-100px"
+                        marginTop: "-100px"
                     }}>
                         <Texto>
-                            <div style={{ }}>
+                            <div style={{}}>
                                 <Texto>
                                     <h2>Porque trabalhar conosco</h2>
                                     <p>Queremos tornar o processo de compra e venda de imóveis uma experiência diferenciada por meio de curadoria personalizada e atendimento único.</p>
@@ -151,54 +151,63 @@ export default function Home() {
                 </div>
             </div>
             <div style={{
+                // display:"flex",
                 position: "relative",
                 overflow: "hidden",
-                height: "110vh", // Initial height
+                height: "100vh", // Initial height
                 textAlign: "center",
-                justifyContent: "center",
-                alignContent: "center",
+                // justifyContent: "center",
+                // alignContent: "center",
             }}>
                 <div
                     style={{
                         position: "absolute",
-                        top: "0",
-                        right: "0",
-                        bottom: "0",
-                        left: "0",
                         backgroundImage: "url(/images/Home/5.jpg)",
+                        backgroundColor: "rgba(255, 255, 255, 0.5)",
+                        backgroundBlendMode: "lighten",
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
-                        opacity: 0.4,
+                        // opacity: 0.4,
                         backgroundPosition: "center",
                         height: "170%", // 100% height to cover the entire div
                         width: "100%",
-                        zIndex: "0",
+                        zIndex: "1",
                     }}
-                ></div>
+                >
+                    <div style={{
+                        zIndex: "3",
+                        width: "60%",
+                        marginTop: "0%",
+                        marginLeft: "5%",
+                        opacity: 1,
+                    }}>
+                        <div>
+                            <Texto>
+                                <p2>SERVIÇOS</p2>
+                            </Texto>
+                        </div>
+                        <div style={{ marginTop: "-4%", marginLeft: "8%", }}>
+                            <Texto>
+                                <h2>Nossa História</h2>
+                            </Texto>
+                        </div>
+                        <div style={{ marginTop: "-4%", marginLeft: "8%", }}>
+                            <Texto>
+                                <p>Visando atender as solicitações de referências no nicho imobiliário, de compra e venda de propriedades exclusivas, nasce a Bossa Rio Real Estate.</p>
+                            </Texto>
+                        </div>
+                    </div>
 
-                <div style={{
-                    zIndex: "2",
-                    width: "50%",
-                    marginTop: "5%",
-                    marginLeft: "5%"
-                }}>
-                    <div>
-                        <Texto>
-                            <p2>SERVIÇOS</p2>
-                        </Texto>
-                    </div>
-                    <div style={{ marginTop: "-4%", marginLeft: "8%", }}>
-                        <Texto>
-                            <h2>O que temos a oferecer</h2>
-                        </Texto>
-                    </div>
-                    <div style={{ marginTop: "-4%", marginLeft: "8%", }}>
-                        <Texto>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.</p>
-                        </Texto>
+                    <div class="nossa_historia_background">
+                        <div class="nossa_historia">
+                            <p>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens sonhos de cada um.</p><p> Tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p>
+                        </div>
                     </div>
                 </div>
 
+
+
+                {/* 
                 <div
                     style={{
                         textAlign: "center",
@@ -311,7 +320,7 @@ export default function Home() {
                             <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
                         </Texto>
                     </div>
-                </div>
+                </div> */}
 
             </div>
             <div style={{
