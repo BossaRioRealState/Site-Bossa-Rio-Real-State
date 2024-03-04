@@ -72,8 +72,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="secao3">
-                <div className="background_nossa_historia">
-                    <div className="titulo_nossa_historia">
+                <div className="background_nossa_historia"></div>
+                {/* <div className="titulo_nossa_historia">
                         <div>
                             <Texto>
                                 <p2>SERVIÇOS</p2>
@@ -96,165 +96,176 @@ export default function Home() {
                             <p>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens sonhos de cada um.</p><p> Tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p>
                         </div>
                     </div>
-                </div>
-
-
-
-                {/* 
-                <div
-                    style={{
-                        textAlign: "center",
-                        display: "flex",
-                        gridTemplateColumns: "repeat(4, 1fr)",
-                        justifyContent: "center",
-                        alignContent: "center",
-                        zIndex: "2",
-                        gridGap: "25px",
-                        marginTop: "-10%",
-                    }}>
-                    <div class="rectangle"
-                        style={{
-                            color: "white",
-                            textAlign: "center",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            zIndex: "2"
-                        }}>
-                        <div style={{ alignContent: "center", }} class="small_logo">
-                            <img
-                                src="/images/Home/logo1.png"
-                                alt="Logo1"
-                                className="img-center"
-                                width="25%"
-                                style={{
-                                    marginTop: "12%",
-                                }}
-                            />
-                        </div>
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
-                    </div>
-                    <div class="rectangle"
-                        style={{
-                            textAlign: "center",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            zIndex: "2"
-                        }}>
-                        <div style={{ alignContent: "center", }} class="small_logo">
-                            <img
-                                src="/images/Home/logo2.png"
-                                alt="Logo1"
-                                className="img-center"
-                                width="25%"
-                                style={{
-                                    marginTop: "12%",
-                                }}
-                            />
-                        </div>
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
-                    </div>
-                    <div class="rectangle"
-                        style={{
-                            textAlign: "center",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            zIndex: "2"
-                        }}>
-                        <div style={{ alignContent: "center", }} class="small_logo">
-                            <img
-                                src="/images/Home/logo3.png"
-                                alt="Logo1"
-                                className="img-center"
-                                width="25%"
-                                style={{
-                                    marginTop: "12%",
-                                }}
-                            />
-                        </div>
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
-                    </div>
-                    <div class="rectangle"
-                        style={{
-                            textAlign: "center",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            zIndex: "2"
-                        }}>
-                        <div style={{ alignContent: "center", }} class="small_logo">
-                            <img
-                                src="/images/Home/logo4.png"
-                                alt="Logo1"
-                                className="img-center"
-                                width="25%"
-                                style={{
-                                    marginTop: "12%",
-                                }}
-                            />
-                        </div>
-                        <Texto>
-                            <h1>Lorem ipsum.</h1>
-                        </Texto>
-                        <Texto>
-                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                        </Texto>
-                    </div>
                 </div> */}
 
-            </div>
-            <div className="secao4">
-                <div className="Background_concierge"></div>
-                <div className="texto_concierge">
-                    <div className="titulo_concierge">
+                <div className="titulo_nossa_historia">
+                    <div>
                         <Texto>
-                            <hr />
-                            <h2>Concierge 360</h2>
-                            <hr2 />
+                            <p2>SERVIÇOS</p2>
                         </Texto>
                     </div>
-                    <div className="topicos_concierge">
+                    <div style={{ marginTop: "-4%", marginLeft: "8%", }}>
                         <Texto>
-                            <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
-                            <ul>
-                                <li><p3>Arquitetura, Design e Decoração;</p3></li>
-                                <li><p3>Personal Shopper Home;</p3></li>
-                                <li><p3>Personal Organizer</p3></li>
-                                <li><p3>Jurídico e burocrático; </p3></li>
-                                <li><p3>Auxílio na comunicação, contratação e acompanhamento de todos os processos citados.</p3></li>
-                            </ul>
+                            <h2>Nossa História</h2>
                         </Texto>
+                    </div>
+                </div>
+
+
+                    <div
+                        style={{
+                            textAlign: "center",
+                            display: "flex",
+                            gridTemplateColumns: "repeat(3, 1fr)",
+                            justifyContent: "center",
+                            alignContent: "center",
+                            zIndex: "2",
+                            gridGap: "100px",
+                            marginTop: "-10%",
+                        }}>
+                        <div class="rectangle"
+                            style={{
+                                color: "white",
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"
+                            }}>
+                            <div style={{ alignContent: "center", }} class="small_logo">
+                                <img
+                                    src="/images/Home/logo1.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",
+                                    }}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Visão</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Visando atender as solicitações de referências no nicho imobiliário, de compra e venda de propriedades exclusivas, nasce a Bossa Rio Real Estate.</p1>
+                            </Texto>
+                        </div>
+                        <div class="rectangle"
+                            style={{
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"
+                            }}>
+                            <div style={{ alignContent: "center", }} class="small_logo">
+                                <img
+                                    src="/images/Home/logo2.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",
+                                    }}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Excelência</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens e sonhos de cada um.</p1>
+                            </Texto>
+                        </div>
+                        <div class="rectangle"
+                            style={{
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"
+                            }}>
+                            <div style={{ alignContent: "center", }} class="small_logo">
+                                <img
+                                    src="/images/Home/logo3.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",
+                                    }}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Dedicação</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p1>
+                            </Texto>
+                        </div>
+                        {/* <div class="rectangle"
+                            style={{
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"
+                            }}>
+                            <div style={{ alignContent: "center", }} class="small_logo">
+                                <img
+                                    src="/images/Home/logo4.png"
+                                    alt="Logo1"
+                                    className="img-center"
+                                    width="25%"
+                                    style={{
+                                        marginTop: "12%",
+                                    }}
+                                />
+                            </div>
+                            <Texto>
+                                <h1>Lorem ipsum.</h1>
+                            </Texto>
+                            <Texto>
+                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
+                            </Texto>
+                        </div> */}
                     </div>
 
                 </div>
-                <div className="container_img_concierge">
-                    <img
-                        src="/images/Home/quarto.png"
-                        className="img_concierge"
-                    />
-                </div>
-                <div class="container_frase_disney">
-                    <div class="frase_disney">
-                        <Texto>
-                            <h3>“Você pode sonhar, criar, desenhar e construir o lugar mais maravilhoso do mundo. Mas é necessário ter pessoas para transformar seu sonho em realidade.’’ - Walt Disney</h3>
-                        </Texto>
+                <div className="secao4">
+                    <div className="Background_concierge"></div>
+                    <div className="texto_concierge">
+                        <div className="titulo_concierge">
+                            <Texto>
+                                <hr />
+                                <h2>Concierge 360</h2>
+                                <hr2 />
+                            </Texto>
+                        </div>
+                        <div className="topicos_concierge">
+                            <Texto>
+                                <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
+                                <ul>
+                                    <li><p3>Arquitetura, Design e Decoração;</p3></li>
+                                    <li><p3>Personal Shopper Home;</p3></li>
+                                    <li><p3>Personal Organizer</p3></li>
+                                    <li><p3>Jurídico e burocrático; </p3></li>
+                                    <li><p3>Auxílio na comunicação, contratação e acompanhamento de todos os processos citados.</p3></li>
+                                </ul>
+                            </Texto>
+                        </div>
+
+                    </div>
+                    <div className="container_img_concierge">
+                        <img
+                            src="/images/Home/quarto.png"
+                            className="img_concierge"
+                        />
+                    </div>
+                    <div class="container_frase_disney">
+                        <div class="frase_disney">
+                            <Texto>
+                                <h3>“Você pode sonhar, criar, desenhar e construir o lugar mais maravilhoso do mundo. Mas é necessário ter pessoas para transformar seu sonho em realidade.’’ - Walt Disney</h3>
+                            </Texto>
+                        </div>
                     </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
-    )
+            )
 }

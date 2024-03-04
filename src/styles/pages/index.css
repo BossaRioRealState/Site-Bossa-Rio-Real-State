@@ -139,7 +139,7 @@
 .background_nossa_historia {
     position: absolute;
     background-image: url(/images/Home/5.jpg);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,8 +233,8 @@
 
 .rectangle {
     border-radius: 15px;
-    width: 225px;
-    height: 330px;
+    width: 300px;
+    height: 440px;
     background-color: white;
     border: 2px solid white;
     margin-top: 200px;

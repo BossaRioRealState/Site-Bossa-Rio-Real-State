@@ -74,10 +74,12 @@ export default function Footer() {
                                 </Texto>
                             </div>
                         </div>
-                        <div style={{marginTop: "80px", display: "inline-block"}}>
+                        <div style={{marginTop: "80px", display: "flex"}}>
                             <Texto>
-                                <h4>Número:</h4>
-                                <p4><a href="https://wa.me/5521971878889">+55 (21) 97187-8889</a></p4>
+                                <h4>Número: </h4>
+                            </Texto>
+                            <Texto>
+                                <p4> <a href="https://wa.me/5521971878889"> +55 (21) 97187-8889</a></p4>
                             </Texto>
                         </div>
                     </div>
