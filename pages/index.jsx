@@ -8,45 +8,14 @@ export default function Home() {
     return (
         <div className="Home">
             <Header />
-            <div style={{
-                position: "relative",
-                overflow: "hidden",
-                height: "135vh", // Initial height
-                textAlign: "center",
-                display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
-            }}>
-                <div
-                    style={{
-                        position: "absolute",
-                        top: "-5%",
-                        left: "0",
-                        backgroundImage: "url(/images/Home/background1.jpg)",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        opacity: 0.6,
-
-                        height: "115%", // 100% height to cover the entire div
-                        width: "100%",
-                        zIndex: "1",
-                    }}
-                ></div>
-                <div
-                    style={{
-                        textAlign: "center",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignContent: "center",
-                        zIndex: "2"
-                    }}>
+            <div className="secao1">
+                <div className="Background_inicio"></div>
+                <div className="container_logo">
                     <Center>
                         <img
                             src="/images/logo.png"
                             alt="Logo Bossa rio"
-                            className="img-center"
-                            height="35%"
-                            style={{ marginTop: '35%' }}
+                            className="img_logo"
                         />
 
                         <div className="container_botao_home">
@@ -58,73 +27,25 @@ export default function Home() {
                     </Center>
                 </div>
             </div>
-            <div style={{
-                position: "relative",
-                overflow: "hidden",
-                height: "100vh", // Initial height
-                textAlign: "center",
-                display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
-            }}>
-                <div
-                    style={{
-                        position: "absolute",
-                        backgroundImage: "url(/images/Home/background2.jpg)",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        opacity: 0.5,
-                        backgroundPosition: "center",
-                        height: "140%", // 100% height to cover the entire div
-                        width: "100%",
-                        zIndex: "1",
-                    }}
-                ></div>
-                <div
-                    style={{
-                        alignItems: "center",
-                        alignContent: "center",
-                        textAlign: "center",
-                        display: "grid",
-                        gridTemplateColumns: "repeat(2, 1fr)",
-                        justifyContent: "center",
-                        alignContent: "center",
-                        zIndex: "2"
-                    }}>
-                    <div style={{
-                        textAlign: "center",
-                        justifyContent: "center",
-                        alignContent: "center",
-                        zIndex: "2"
-                    }}>
+            <div className="secao2">
+                <div className="Background_porque_trab"></div>
+                <div className="grid_porque_trab">
+                    <div>
                         <img
                             src="/images/Home/interior.jpg"
                             alt="Logo Bossa rio"
-                            className="img-center"
-                            height="350px"
-                            style={{
-                                borderRadius: "15px",
-                                // marginTop: '80px',
-                                // marginRight: '-150px'
-                            }}
+                            className="img_porque"
                         />
                     </div>
-                    <div style={{
-                        textAlign: "center",
-                        justifyContent: "center",
-                        alignContent: "center",
-                        zIndex: "2",
-                        paddingRight: "10%",
-                        marginTop: "-100px"
-                    }}>
+                    <div className="container_texto_porque">
                         <Texto>
-                            <div style={{}}>
+                            <div>
                                 <Texto>
                                     <h2>Porque trabalhar conosco</h2>
                                     <p>Queremos tornar o processo de compra e venda de imóveis uma experiência diferenciada por meio de curadoria personalizada e atendimento único.</p>
                                 </Texto>
                             </div>
-                            <div style={{ display: "flex", gridTemplate: "repeat(2, 1fr)", gridGap: "100px", marginTop: "30px" }}>
+                            <div className="grid_valores">
                                 <div>
                                     <ul>
                                         <li>Ética</li>
@@ -150,37 +71,9 @@ export default function Home() {
 
                 </div>
             </div>
-            <div style={{
-                // display:"flex",
-                position: "relative",
-                overflow: "hidden",
-                height: "100vh", // Initial height
-                textAlign: "center",
-                // justifyContent: "center",
-                // alignContent: "center",
-            }}>
-                <div
-                    style={{
-                        position: "absolute",
-                        backgroundImage: "url(/images/Home/5.jpg)",
-                        backgroundColor: "rgba(255, 255, 255, 0.5)",
-                        backgroundBlendMode: "lighten",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        // opacity: 0.4,
-                        backgroundPosition: "center",
-                        height: "170%", // 100% height to cover the entire div
-                        width: "100%",
-                        zIndex: "1",
-                    }}
-                >
-                    <div style={{
-                        zIndex: "3",
-                        width: "60%",
-                        marginTop: "0%",
-                        marginLeft: "5%",
-                        opacity: 1,
-                    }}>
+            <div className="secao3">
+                <div className="background_nossa_historia">
+                    <div className="titulo_nossa_historia">
                         <div>
                             <Texto>
                                 <p2>SERVIÇOS</p2>
@@ -323,40 +216,17 @@ export default function Home() {
                 </div> */}
 
             </div>
-            <div style={{
-                display: "grid",
-                position: "relative",
-                overflow: "hidden",
-                height: "130vh", // Initial height
-            }}>
-                <div
-                    style={{
-                        position: "absolute",
-                        top: "0",
-                        left: "0",
-                        backgroundImage: "url(/images/Home/background3.jpg)",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        opacity: 0.5,
-                        backgroundPosition: "center",
-                        height: "100%", // 100% height to cover the entire div
-                        width: "100%",
-                        zIndex: "0",
-                    }}
-                ></div>
-                <div style={{
-                    marginTop: "15%",
-                    marginLeft: "8%",
-                    width: "50%"
-                }}>
-                    <div style={{ marginTop: "4%", marginLeft: "8%", }}>
+            <div className="secao4">
+                <div className="Background_concierge"></div>
+                <div className="texto_concierge">
+                    <div className="titulo_concierge">
                         <Texto>
                             <hr />
                             <h2>Concierge 360</h2>
                             <hr2 />
                         </Texto>
                     </div>
-                    <div style={{ marginTop: "-3%", marginLeft: "8%", }}>
+                    <div className="topicos_concierge">
                         <Texto>
                             <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
                             <ul>
@@ -370,19 +240,10 @@ export default function Home() {
                     </div>
 
                 </div>
-                <div style={{
-                    textAlign: "right",
-                    justifyContent: "right",
-                    alignContent: "right",
-                    zIndex: 3,
-                    marginTop: "-31%",
-                    marginRight: "5%"
-                }}>
+                <div className="container_img_concierge">
                     <img
                         src="/images/Home/quarto.png"
-                        className="img-room"
-                        width="25%"
-                        style={{}}
+                        className="img_concierge"
                     />
                 </div>
                 <div class="container_frase_disney">
