@@ -40,12 +40,13 @@ export default function sobre_nos() {
                         marginLeft: "6%"
                     }}>
                     <div style={{
-                        textAlign: "left",
+                        textAlign: "center",
                         alignContent: "center",
                         zIndex: "2", width: "80%"
                     }}>
                         <Texto>
-                            <div>
+                            <div style={{
+                        textAlign: "center",}}>
                             <h2>QUEM SOMOS?</h2>
                             
                             </div>

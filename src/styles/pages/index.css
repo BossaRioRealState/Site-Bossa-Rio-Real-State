@@ -154,10 +154,35 @@
 .titulo_nossa_historia {
     z-index: 3;
     width: 60%;
-    margin-top: 0%;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 8%;
     opacity: 1;
 }
+
+.container_rect_sobre {
+    text-align: center;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    grid-gap: 100px;
+    margin-top: -10%;
+}
+
+.rectangle {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+}
+
+.img-icon {
+    width: 25%;
+    margin-top: 12%;
+  }
+  
 
 .secao4 {
     display: grid;
