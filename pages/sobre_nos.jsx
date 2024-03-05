@@ -18,7 +18,7 @@ export default function sobre_nos() {
                 alignContent: "center",
             }}>
                 <div className="background_sobre_nos"></div>
-                <div style={{ display:"flex",marginTop: "10%", marginLeft: "10%", }}>
+                <div style={{marginTop: "10%", width:"300px", marginLeft: "10%", backgroundImage:"/images/sobre_nos/lines.png", backgroundSize:"cover"}}>
                     <Texto>
                         <h2>SOBRE</h2>
                         <h2_t>NÓS</h2_t>
@@ -26,7 +26,6 @@ export default function sobre_nos() {
                             src="/images/sobre_nos/lines.png"
                             className="img-room"
                             width="250px"
-                            marginTop="200px"
                         /> */}
                     </Texto>
                 </div>

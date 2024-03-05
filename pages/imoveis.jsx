@@ -88,7 +88,7 @@ export default function imoveis() {
                 <div class="carousel_background">
                     <Carousel slides={slides} />
                     <div class="container_botao_contato">
-                        <a href="/imóveis" class="botao_contato">
+                        <a href="https://wa.me/5521971878889" class="botao_contato">
                             Entre em Contato!
                         </a>
                     </div>
