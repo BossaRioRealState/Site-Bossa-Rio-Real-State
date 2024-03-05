@@ -19,7 +19,7 @@ export default function Home() {
                         />
 
                         <div className="container_botao_home">
-                            <a href="/contatos" className="botao_home">
+                            <a href="https://wa.me/5521971878889" className="botao_home">
                                 Fale com uma de nossas especialistas
                             </a>
                         </div>
@@ -253,7 +253,7 @@ export default function Home() {
                     </div>
                     <div className="container_img_concierge">
                         <img
-                            src="/images/Home/quarto.png"
+                            src="/images/Home/concierge-360.jpg"
                             className="img_concierge"
                         />
                     </div>

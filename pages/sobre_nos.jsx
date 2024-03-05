@@ -16,24 +16,19 @@ export default function sobre_nos() {
                 textAlign: "center",
                 justifyContent: "center",
                 alignContent: "center",
-                }}>
-                <div
-                    style={{
-                    position: "absolute",
-                    backgroundImage: "url(/images/background-sobre-nos.jpg)",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    opacity:0.6,
-                    backgroundPosition: "center",
-                    height: "100%", // 100% height to cover the entire div
-                    width: "100%",
-                    }}
-                ></div>
-                <div style={{marginTop:"10%", marginLeft:"10%",}}>
-                        <Texto>
-                            <h2>SOBRE</h2>
-                            <h2_t>NÓS</h2_t>                            
-                        </Texto>
+            }}>
+                <div className="background_sobre_nos"></div>
+                <div style={{ display:"flex",marginTop: "10%", marginLeft: "10%", }}>
+                    <Texto>
+                        <h2>SOBRE</h2>
+                        <h2_t>NÓS</h2_t>
+                        {/* <img
+                            src="/images/sobre_nos/lines.png"
+                            className="img-room"
+                            width="250px"
+                            marginTop="200px"
+                        /> */}
+                    </Texto>
                 </div>
                 <div
                     style={{
@@ -42,15 +37,19 @@ export default function sobre_nos() {
                         gridTemplateColumns: "repeat(2, 1fr)",
                         justifyContent: "center",
                         zIndex: "2",
-                        marginTop:"130px",
-                        marginLeft:"6%"
-                }}>
+                        marginTop: "130px",
+                        marginLeft: "6%"
+                    }}>
                     <div style={{
                         textAlign: "left",
                         alignContent: "center",
-                        zIndex: "2", width:"80%"}}>
+                        zIndex: "2", width: "80%"
+                    }}>
                         <Texto>
+                            <div>
                             <h2>QUEM SOMOS?</h2>
+                            
+                            </div>
                             <p4>Bossa Rio Real Estate chega ao mercado com o propósito de auxiliar você que deseja comprar ou vender um imóvel de luxo ou de alto padrão. Conte com a consultoria especializada de uma empresa que agrega o que há de melhor disponível no mercado imobiliário para sua segurança e conforto.</p4>
                             <p4>Com o apoio da Plantel Turismo, uma empresa consolidada e reconhecida há mais de 40 anos no mercado de turismo de luxo, chegamos para ocupar uma lacuna muito requisitada neste nicho</p4>
                             <p4>Através dos nossos contatos, curadoria de portfólio e know how em atendimento personalizado, agregamos um novo conceito para um público exigente e sofisticado.</p4>
@@ -66,57 +65,59 @@ export default function sobre_nos() {
                             <p4>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens sonhos de cada um, tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p4>
                         </Texto>
                     </div> */}
-                    
+
                 </div>
-                <div 
+                <div
                     style={{
-                        width:"100%",
-                        backgroundColor:"white",
+                        width: "100%",
+                        backgroundColor: "white",
                         textAlign: "center",
                         display: "flex",
                         gridTemplateColumns: "repeat(3, 3fr)",
-                        alignItems:"center",
-                        gridGap:"70px",
+                        alignItems: "center",
+                        gridGap: "70px",
                         justifyContent: "center",
-                        alignItems:"center",
+                        alignItems: "center",
                         zIndex: "4",
-                        marginTop:"100px",
-                }}>
+                        marginTop: "100px",
+                    }}>
                     <div class="perfil_socias">
                         <img
-                                        src="/images/Home/quarto.png"
-                                        className="img-room"
-                                        width="300px"
-                                        style={{}}
-                                    />
+                            src="/images/sobre_nos/Aliny.jpg"
+                            className="img-room"
+                            width="250px"
+                            style={{ borderRadius: "40px", border: '10px solid white', }}
+                        />
                         <div class="rectangle_sobre_nos"
-                        style={{
-                            color:"white",
-                            textAlign: "center",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            zIndex: "2"}}>
-                        <Texto>
-                            <h1>Aliny Manzieri</h1>
-                        </Texto>
-                        <p>Formada em comunicação, com mba em gestão empresarial pela FGV.</p>
-                        <p>Experiência ampla na área comercial e em bancos. Atuando desde financiamento habitacional, aporte, até compra e venda de imóveis para fundo imobiliário, inclusive negociações pela oportunitty. Sócia da imobiliária Bossa Rio Real Estate.</p>
+                            style={{
+                                color: "white",
+                                textAlign: "center",
+                                justifyContent: "center",
+                                alignContent: "center",
+                                zIndex: "2"
+                            }}>
+                            <Texto>
+                                <h1>Aliny Manzieri</h1>
+                            </Texto>
+                            <p>Formada em comunicação, com mba em gestão empresarial pela FGV.</p>
+                            <p>Experiência ampla na área comercial e em bancos. Atuando desde financiamento habitacional, aporte, até compra e venda de imóveis para fundo imobiliário, inclusive negociações pela oportunitty. Sócia da imobiliária Bossa Rio Real Estate.</p>
                         </div>
                     </div>
                     <div class="perfil_socias">
                         <img
-                                        src="/images/Home/quarto.png"
-                                        className="img-room"
-                                        width="300px"
-                                        style={{}}
-                                    />
+                            src="/images/sobre_nos/Flavia.jpg"
+                            className="img-room"
+                            width="250px"
+                            style={{ borderRadius: "40px", border: '10px solid white', }}
+                        />
                         <div class="rectangle_sobre_nos"
                             style={{
-                                color:"white",
+                                color: "white",
                                 textAlign: "center",
                                 justifyContent: "center",
                                 alignContent: "center",
-                                zIndex: "2"}}>
+                                zIndex: "2"
+                            }}>
                             <Texto>
                                 <h1>Flávia Baldoíno Costa</h1>
                             </Texto>
@@ -126,18 +127,19 @@ export default function sobre_nos() {
                     </div>
                     <div class="perfil_socias">
                         <img
-                                        src="/images/Home/quarto.png"
-                                        className="img-room"
-                                        width="300px"
-                                        style={{}}
-                                    />
+                            src="/images/sobre_nos/Isis.jpg"
+                            className="img-room"
+                            width="250px"
+                            style={{ borderRadius: "40px", border: '10px solid white', }}
+                        />
                         <div class="rectangle_sobre_nos"
                             style={{
-                                color:"white",
+                                color: "white",
                                 textAlign: "center",
                                 justifyContent: "center",
                                 alignContent: "center",
-                                zIndex: "2"}}>         
+                                zIndex: "2"
+                            }}>
                             <Texto>
                                 <h1>Isis Grossi</h1>
                             </Texto>

@@ -203,12 +203,14 @@
     justify-content: right;
     align-content: right;
     z-index: 3;
-    margin-top: -31%;
-    margin-right: 5%;
+    margin-top: -28%;
+    margin-right: 10%;
 }
 
 .img_concierge {
     width: 25%;
+    border-radius: 40px;
+    border: 5px solid #d4a23f90;
 }
 
 .container_frase_disney {

@@ -1,3 +1,14 @@
+.background_sobre_nos {
+    position: absolute;
+    background-image: url("/images/sobre_nos/background-sobre-nos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    background-position:bottom right;
+    height: 100%;
+    width: 100%;
+  }
+
 .rectangle_sobre_nos {
     border-radius: 15px;
     width: 100%;

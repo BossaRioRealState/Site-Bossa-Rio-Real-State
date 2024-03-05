@@ -25,7 +25,7 @@ export default function clientes() {
                     backgroundSize: "cover",
                     opacity:0.7,
                     backgroundPosition: "center",
-                    height: "150%", // 100% height to cover the entire div
+                    height: "100%", // 100% height to cover the entire div
                     width: "100%",
                     zIndex: "0",
                     }}

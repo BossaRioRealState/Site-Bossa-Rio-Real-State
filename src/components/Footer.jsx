@@ -44,11 +44,11 @@ export default function Footer() {
                             </div>
                             <div>
                                 <Texto>
-                                    <h4>Redes Sociais</h4>
+                                    <h4>Contatos</h4>
                                     <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", }}>
-                                        <a href="/"><img
-                                            src="/images/footer/linkedin.png"
-                                            alt="linkedin"
+                                        <a href="https://wa.me/5521971878889"><img
+                                            src="/images/footer/whatsapp.png"
+                                            alt="whatsapp"
                                             className="img-center"
                                             width="70%"
                                             style={{
@@ -62,9 +62,9 @@ export default function Footer() {
                                             style={{
                                             }}
                                         /></a>
-                                        <a href="/"><img
-                                            src="/images/footer/twitter.png"
-                                            alt="twitter"
+                                        <a href="mailto:bossario@plantelturismo.com.br "><img
+                                            src="/images/footer/email.png"
+                                            alt="email"
                                             className="img-center"
                                             width="70%"
                                             style={{
@@ -74,14 +74,14 @@ export default function Footer() {
                                 </Texto>
                             </div>
                         </div>
-                        <div style={{marginTop: "80px", display: "flex"}}>
+                        {/* <div style={{marginTop: "80px", display: "flex"}}>
                             <Texto>
                                 <h4>Número: </h4>
                             </Texto>
                             <Texto>
                                 <p4> <a href="https://wa.me/5521971878889"> +55 (21) 97187-8889</a></p4>
                             </Texto>
-                        </div>
+                        </div> */}
                     </div>
                 </footer>
             </Center>
