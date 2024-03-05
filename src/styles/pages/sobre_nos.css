@@ -1,3 +1,71 @@
+.sobre_nos {
+    position: relative;
+    /* background-color: rgba(255, 220, 100, 0.1); */
+    overflow: hidden;
+    height: 250vh; /* Altura inicial */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.titulo {
+    overflow: visible;
+    margin-top: 10%;
+    height: 120px;
+    width: 260px;
+    margin-left: 10%;
+    background-image: url('/images/sobre_nos/lines.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto_quem_somos {
+    text-align: center;
+    align-content: center;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #045570;
+    display: flex;
+    font-family: Libre Baskerville;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2% 0;
+    z-index: 3;
+}
+
+.texto_quem_somos h2 {
+    font-family: Libre Baskerville;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #045570;
+    z-index: 3;
+}
+
+.texto_quem_somos p4 {
+    font-family: Inter;
+    text-align: center;
+    font-size: 22px;
+    color: #045570;
+    z-index: 3;
+    padding-top: 3%;
+}
+
+.container_perfils {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    margin-top: 100px;
+    gap: 70px;
+}
+
 .background_sobre_nos {
     position: absolute;
     background-image: url("/images/sobre_nos/background-sobre-nos.jpg");
@@ -7,6 +75,7 @@
     background-position:bottom right;
     height: 100%;
     width: 100%;
+    z-index: 0;
   }
 
 .rectangle_sobre_nos {
@@ -18,6 +87,10 @@
     padding-left: 10%;
     padding-right: 10%;
     margin-top:50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
     /* border: 2px solid white; */
 }
 
@@ -35,4 +108,10 @@
     color: #045570;
     margin-top: 5%;
     z-index: 3;
+}
+
+.img_perfil {
+    width: 250px;
+    border-radius: 40px;
+    border: 10px solid white;
 }

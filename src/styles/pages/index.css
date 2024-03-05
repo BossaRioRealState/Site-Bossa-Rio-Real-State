@@ -181,14 +181,13 @@
 .img-icon {
     width: 25%;
     margin-top: 12%;
-  }
-  
+}
 
 .secao4 {
     display: grid;
     position: relative;
     overflow: hidden;
-    height: 130vh;
+    height: 110vh;
     /* Initial height */
 }
 
@@ -208,7 +207,7 @@
 }
 
 .texto_concierge {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 8%;
     width: 50%;
 }
