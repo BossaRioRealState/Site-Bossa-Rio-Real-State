@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Texto from "src/components/Texto";
 
 const CarouselDepoimentos = (props) => {
     const [PaginaAtual, setPaginaAtual] = useState(0);

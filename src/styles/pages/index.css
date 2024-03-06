@@ -24,10 +24,6 @@
 }
 
 .container_logo {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     z-index: 2;
 }
 

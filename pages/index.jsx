@@ -1,6 +1,5 @@
 import Header from "src/components/Header"
 import Footer from "src/components/Footer"
-import Center from "src/components/Center"
 import Texto from "src/components/Texto";
 
 export default function Home() {
@@ -11,20 +10,17 @@ export default function Home() {
             <div className="secao1">
                 <div className="Background_inicio"></div>
                 <div className="container_logo">
-                    <Center>
-                        <img
-                            src="/images/logo.png"
-                            alt="Logo Bossa rio"
-                            className="img_logo"
-                        />
+                    <img
+                        src="/images/logo.png"
+                        alt="Logo Bossa rio"
+                        className="img_logo"
+                    />
 
-                        <div className="container_botao_home">
-                            <a href="https://wa.me/5521971878889" className="botao_home">
-                                Fale com uma de nossas especialistas
-                            </a>
-                        </div>
-
-                    </Center>
+                    <div className="container_botao_home">
+                        <a href="https://wa.me/5521971878889" className="botao_home">
+                            Fale com uma de nossas especialistas
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="secao2">

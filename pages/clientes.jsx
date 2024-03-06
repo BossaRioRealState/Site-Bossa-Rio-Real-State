@@ -1,6 +1,5 @@
 import Header from "src/components/Header"
 import Footer from "src/components/Footer"
-import Center from "src/components/Center"
 import Texto from "src/components/Texto";
 
 import CarouselDepoimentos from 'src/components/carousel_depoimentos';

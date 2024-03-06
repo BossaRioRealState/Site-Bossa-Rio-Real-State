@@ -1,6 +1,4 @@
-import Center from "src/components/Center"
 import Texto from "src/components/Texto"
-
 
 export default function Footer() {
     return (

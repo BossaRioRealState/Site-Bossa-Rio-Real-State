@@ -1,7 +1,5 @@
 import Header from "src/components/Header"
 import Footer from "src/components/Footer"
-import Center from "src/components/Center"
-import Texto from "src/components/Texto";
 
 import CarouselImoveis from 'src/components/carousel_imoveis';
 
@@ -62,10 +60,13 @@ export default function imoveis() {
     return (
         <div>
             <Header />
+
             <div className="imoveis">
                 <div className="background_imoveis"></div>
+
                 <div class="carousel_background">
                     <CarouselImoveis slides={info_imoveis} />
+
                     <div class="container_botao_contato">
                         <a href="https://wa.me/5521971878889" class="botao_contato">
                             Entre em Contato!
@@ -73,6 +74,7 @@ export default function imoveis() {
                     </div>
                 </div>
             </div>
+
             <Footer />
         </div>
     )
