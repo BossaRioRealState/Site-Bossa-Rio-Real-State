@@ -1,13 +1,33 @@
-.Footer {
-    background-color: #ffffff;
-    padding: 10%;
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%; 
 }
 
-footer {
-    color: rgb(255, 255, 255);
-    flex-direction: column;
-    height: 30px;
-    align-items: center;
-    width: 100%;
-    gap: 15px;
+.footer_esquerda {
+    display: flex;
+    margin-left: 10%;
+    gap: 30px;
 }
+
+.logo_footer {
+    height:25%
+}
+
+.footer_direita {
+    display: flex;
+    gap: 60px;
+    margin-left: 15%;
+}
+
+.container_contatos {
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    gap: 5%;
+}
+
+.logo_contato {
+    width: 100%;
+}
+
