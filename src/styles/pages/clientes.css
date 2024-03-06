@@ -1,3 +1,32 @@
+.clientes {
+    position: relative;
+    overflow: hidden;
+    height: 140vh; /* Altura inicial */
+    align-content: center;
+}
+
+.background_clientes {
+    position: absolute;
+    background-image: url(/images/clientes/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    height: 100%; /* Altura de 100% para cobrir todo o div */
+    width: 100%;
+    z-index: 0;
+}
+
+.titulo_clientes {
+    margin-top: 10%;
+    margin-left: 10%
+}
+
+.titulo_depoimentos {
+    margin-left: 10%
+}
+  
+
 .rectangle_clients {
     top: 50%;
     left: 50%;

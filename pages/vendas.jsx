@@ -3,7 +3,7 @@ import Footer from "src/components/Footer"
 import Center from "src/components/Center"
 import Texto from "src/components/Texto";
 
-import Carousel from 'src/components/carousel';
+import Carousel from 'src/components/carousel_imoveis';
 
 const slides = [
     [

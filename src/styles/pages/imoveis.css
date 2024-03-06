@@ -42,12 +42,6 @@
     z-index: 3;
 }
 
-.image {
-    display: flex;
-    text-align: center;
-    align-content: center;
-}
-
 .container_botao_contato {
     display: flex;
     justify-content: right;

@@ -2,118 +2,80 @@ import React, { useState } from 'react';
 import Texto from "src/components/Texto";
 
 const CarouselDepoimentos = (props) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [PaginaAtual, setPaginaAtual] = useState(0);
 
-    const goToNextSlide = () => {
-        if (currentIndex === props.slides.length - 1) {
-            setCurrentIndex(0);
+    const PassarPagina = () => {
+        if (PaginaAtual === props.slides.length - 1) {
+            setPaginaAtual(0);
         } else {
-            setCurrentIndex(currentIndex + 1);
+            setPaginaAtual(PaginaAtual + 1);
         }
     }
 
-    const goToPrevSlide = () => {
-        if (currentIndex === 0) {
-            setCurrentIndex(props.slides.length - 1);
+    const VoltarPagina = () => {
+        if (PaginaAtual === 0) {
+            setPaginaAtual(props.slides.length - 1);
         } else {
-            setCurrentIndex(currentIndex - 1);
+            setPaginaAtual(PaginaAtual - 1);
         }
-    }
-
-    const renderSlide = () => {
-        return (
-            <div>
-                <div
-                    style={{
-                        display: "grid",
-                        gridTemplateColumns: "repeat(2, 1fr)",
-                        marginTop: "50px",
-                        marginLeft: "100px"
-                    }}>
-                    <div style={{ position: "relative" }}>
-                        <div class="rectangle_clients">
-
-                            <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
-
-                        </div>
-                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3"}}>
-                            <img
-                                src="/images/clientes/perfil.jpg"
-                                className="img-room"
-                                width="25%"
-                                style={{ borderRadius: '20px', display: "block", zIndex: "3", }}
-                            />
-                        </div>
-                    </div>
-
-                    <div style={{ position: "relative" }}>
-                        <div class="rectangle_clients">
-
-                            <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
-
-                        </div>
-                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3", }}>
-                            <img
-                                src="/images/clientes/perfil.jpg"
-                                className="img-room"
-                                width="25%"
-                                style={{ borderRadius: '20px', display: "block", zIndex: "3", }}
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    style={{
-                        display: "grid",
-                        gridTemplateColumns: "repeat(2, 1fr)",
-                        marginTop: "50px",
-                        marginLeft: "100px"
-                    }}>
-                    <div style={{ position: "relative" }}>
-                        <div class="rectangle_clients">
-
-                            <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
-
-                        </div>
-                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3", }}>
-                            <img
-                                src="/images/clientes/perfil.jpg"
-                                className="img-room"
-                                width="25%"
-                                style={{ borderRadius: '20px', display: "block", zIndex: "3", }}
-                            />
-                        </div>
-                    </div>
-
-                    <div style={{ position: "relative" }}>
-                        <div class="rectangle_clients">
-
-                            <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
-
-                        </div>
-                        <div style={{ borderRadius: '20px', display: "block", zIndex: "3", }}>
-                            <img
-                                src="/images/clientes/perfil.jpg"
-                                className="img-room"
-                                width="25%"
-                                style={{ borderRadius: '20px', display: "block", zIndex: "3", }}
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        )
     }
 
     return (
         <div style={{ display: "flex" }}>
-            <button className='prev-button-depo' onClick={goToPrevSlide}>
+            <button className='botao_voltar_pagina' onClick={VoltarPagina}>
                 <img src="images/right-arrow.png" />
             </button>
 
-            {renderSlide()}
+            <div className="container_depoimentos">
+                <div className="depoimento">
+                    <img
+                        src="/images/clientes/perfil.jpg"
+                        className="img_depoimento"
+                    />
 
-            <button className='next-button-depo' onClick={goToNextSlide}>
+                    <div className="retangulo_depoimento">
+                        <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
+                    </div>
+                </div>
+
+                <div className="depoimento">
+
+                    <img
+                        src="/images/clientes/perfil.jpg"
+                        className="img_depoimento"
+                    />
+
+                    <div className="retangulo_depoimento">
+                        <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
+                    </div>
+                </div>
+
+
+                <div className="depoimento">
+
+                    <img
+                        src="/images/clientes/perfil.jpg"
+                        className="img_depoimento"
+                    />
+
+                    <div className="retangulo_depoimento">
+                        <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
+                    </div>
+                </div>
+
+                <div className="depoimento">
+                    <img
+                        src="/images/clientes/perfil.jpg"
+                        className="img_depoimento"
+                    />
+
+                    <div className="retangulo_depoimento">
+                        <p1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." - Lorem</p1>
+                    </div>
+                </div>
+            </div>
+
+            <button className='botao_passar_pagina' onClick={PassarPagina}>
                 <img src="images/right-arrow.png" />
             </button>
         </div>
