@@ -1,6 +1,6 @@
 /* Aqui se refere a mudança de imóvel */
 
-.carousel-container {
+.carousel_container {
     height:400px;
     width:100%;
     display: flex;
@@ -16,8 +16,35 @@
     width:600px;
 }
 
+.imovel {
+    width: "100%";
+    display: "absolute"
+}
+
+.grid_infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    height:450px;
+    padding-top:6%;
+    padding-bottom:4%;
+}
   
-.prev-button, .next-button {
+.grid_infos img {
+    border-radius: 20px;
+    height:366px;
+    width:550px;
+}
+
+
+.fotos_imovel {
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+  
+.botao_voltar_imovel, .botao_passar_imovel {
     height: 60px;
     width: 60px;
     font-size: 15px;
@@ -28,24 +55,24 @@
     margin-bottom: -670px;
 }
 
-.prev-button img{
+.botao_voltar_imovel img{
     transform: scaleX(-1);
     height: 80px;
     width: 80px;
     opacity: 0.6;
 }
 
-.next-button  img{
+.botao_passar_imovel  img{
     height: 80px;
     width: 80px;
     opacity: 0.6;
 }
 
-.prev-button {
+.botao_voltar_imovel {
     justify-content: left;
 }
 
-.next-button {
+.botao_passar_imovel {
     justify-content: right;
 }
   
@@ -57,19 +84,7 @@
     align-content: center;
 }
 
-.carousel-container-img {
-    height:450px;
-    padding-top:6%;
-    padding-bottom:4%;
-}
-  
-.carousel-container-img img {
-    border-radius: 20px;
-    height:366px;
-    width:550px;
-}
-
-.prev-button-img {
+.botao_voltar_foto {
     justify-content: left;
     border: none;
     cursor: pointer;
@@ -77,30 +92,30 @@
     background-color: transparent;
 }
 
-.next-button-img {
+.botao_passar_foto {
     border: none;
     cursor: pointer;
     background-color: transparent;
 }
 
-.prev-button-img img{
+.botao_voltar_foto img{
     transform: scaleX(-1);
     height: 60px;
     width: 60px;
     opacity: 0.6;
 }
 
-.next-button-img  img{
+.botao_passar_foto  img{
     height: 60px;
     width: 60px;
     opacity: 0.6;
 }
 
-.prev-button-img {
+.botao_voltar_foto {
     margin-right: -60px;
 }
 
-.next-button-img {
+.botao_passar_foto {
     margin-left: -60px;
 }
 
@@ -117,12 +132,12 @@
     margin-bottom: -6%;
 }
 
-.text {
+.descricao_imovel {
     width:650px;
     overflow-y: auto;
 }
 
-.text p {
+.descricao_imovel p {
     font-family: Inter;
     text-align: justify;
     text-justify: auto;
@@ -134,7 +149,7 @@
     font-weight: initial;
 }
 
-.text ul {
+.descricao_imovel ul {
     padding: 5%;
     font-family: Inter;
     text-align: left;
@@ -148,11 +163,11 @@
     font-weight: initial;
 }
 
-.text li {
+.descricao_imovel li {
     margin-top: 10px;
 }
 
-.text p1 {
+.descricao_imovel p1 {
     font-family: Inter;
     text-align: left;
     font-size: 20px;

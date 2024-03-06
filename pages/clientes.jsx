@@ -3,7 +3,7 @@ import Footer from "src/components/Footer"
 import Center from "src/components/Center"
 import Texto from "src/components/Texto";
 
-import Carousel_depoimentos from 'src/components/carousel_depoimentos';
+import CarouselDepoimentos from 'src/components/carousel_depoimentos';
 
 export default function clientes() {
 
@@ -149,7 +149,7 @@ export default function clientes() {
                         </div>
                     </div>
                 </div> */}
-                <Carousel_depoimentos slides={[]}/>
+                <CarouselDepoimentos slides={[]}/>
             </div>
             <Footer />
         </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Texto from "src/components/Texto";
 
-const Carousel = (props) => {
+const CarouselDepoimentos = (props) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToNextSlide = () => {
@@ -120,4 +120,4 @@ const Carousel = (props) => {
     )
 }
 
-export default Carousel;
+export default CarouselDepoimentos;

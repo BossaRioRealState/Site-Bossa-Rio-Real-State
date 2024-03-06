@@ -120,31 +120,6 @@ export default function Home() {
                             <p1>Tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p1>
                         </Texto>
                     </div>
-                    {/* <div class="rectangle"
-                            style={{
-                                textAlign: "center",
-                                justifyContent: "center",
-                                alignContent: "center",
-                                zIndex: "2"
-                            }}>
-                            <div style={{ alignContent: "center", }} class="small_logo">
-                                <img
-                                    src="/images/Home/logo4.png"
-                                    alt="Logo1"
-                                    className="img-center"
-                                    width="25%"
-                                    style={{
-                                        marginTop: "12%",
-                                    }}
-                                />
-                            </div>
-                            <Texto>
-                                <h1>Lorem ipsum.</h1>
-                            </Texto>
-                            <Texto>
-                                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p1>
-                            </Texto>
-                        </div> */}
                 </div>
 
             </div>
