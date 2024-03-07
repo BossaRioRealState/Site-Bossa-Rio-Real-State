@@ -26,7 +26,7 @@ export default function Home() {
             <div className="secao2">
                 <div className="Background_porque_trab"></div>
                 <div className="grid_porque_trab">
-                    <div>
+                    <div className="container_img_porque">
                         <img
                             src="/images/Home/interior.jpg"
                             alt="Logo Bossa rio"
@@ -75,7 +75,6 @@ export default function Home() {
                     </Texto>
                 </div>
 
-
                 <div className="container_rect_sobre">
                     <div class="rectangle">
                         <img
@@ -85,8 +84,6 @@ export default function Home() {
                         />
                         <Texto>
                             <h1>Visão</h1>
-                        </Texto>
-                        <Texto>
                             <p1>Visando atender as solicitações de referências no nicho imobiliário, de compra e venda de propriedades exclusivas, nasce a Bossa Rio Real Estate.</p1>
                         </Texto>
                     </div>
@@ -98,8 +95,6 @@ export default function Home() {
                         />
                         <Texto>
                             <h1>Excelência</h1>
-                        </Texto>
-                        <Texto>
                             <p1>Chegamos para quebrar paradigmas no mercado imobiliário atendendo de forma personalizada, exclusiva e cuidando com excelência dos bens e sonhos de cada um.</p1>
                         </Texto>
                     </div>
@@ -111,8 +106,6 @@ export default function Home() {
                         />
                         <Texto>
                             <h1>Dedicação</h1>
-                        </Texto>
-                        <Texto>
                             <p1>Tendo como espelho a mesma dedicação, personalização e curadoria cuidadosa e especializada da agência de turismo que nos abraça e tem mais de 4 décadas no mercado.</p1>
                         </Texto>
                     </div>
@@ -121,33 +114,35 @@ export default function Home() {
             </div>
             <div className="secao4">
                 <div className="Background_concierge"></div>
-                <div className="texto_concierge">
-                    <div className="titulo_concierge">
-                        <Texto>
-                            <hr />
-                            <h2>Concierge 360</h2>
-                            <hr2 />
-                        </Texto>
-                    </div>
-                    <div className="topicos_concierge">
-                        <Texto>
-                            <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
-                            <ul>
-                                <li><p3>Arquitetura, Design e Decoração;</p3></li>
-                                <li><p3>Personal Shopper Home;</p3></li>
-                                <li><p3>Personal Organizer</p3></li>
-                                <li><p3>Jurídico e burocrático; </p3></li>
-                                <li><p3>Auxílio na comunicação, contratação e acompanhamento de todos os processos citados.</p3></li>
-                            </ul>
-                        </Texto>
-                    </div>
+                <div className="grid_concierge">
+                    <div className="texto_concierge">
+                        <div className="titulo_concierge">
+                            <Texto>
+                                <hr />
+                                <h2>Concierge 360</h2>
+                                <hr2 />
+                            </Texto>
+                        </div>
+                        <div className="topicos_concierge">
+                            <Texto>
+                                <p3>Caso o cliente tenha interesse, oferecemos assessoria completa e personalizada no processo de compra e reforma de imóveis, incluindo serviços como: </p3>
+                                <ul>
+                                    <li><p3>Arquitetura, Design e Decoração;</p3></li>
+                                    <li><p3>Personal Shopper Home;</p3></li>
+                                    <li><p3>Personal Organizer</p3></li>
+                                    <li><p3>Jurídico e burocrático; </p3></li>
+                                    <li><p3>Auxílio na comunicação, contratação e acompanhamento de todos os processos citados.</p3></li>
+                                </ul>
+                            </Texto>
+                        </div>
 
-                </div>
-                <div className="container_img_concierge">
-                    <img
-                        src="/images/Home/concierge-360.jpg"
-                        className="img_concierge"
-                    />
+                    </div>
+                    <div className="container_img_concierge">
+                        <img
+                            src="/images/Home/concierge-360.jpg"
+                            className="img_concierge"
+                        />
+                    </div>
                 </div>
                 <div class="container_frase_disney">
                     <div class="frase_disney">

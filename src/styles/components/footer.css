@@ -1,5 +1,7 @@
 footer {
     display: grid;
+    overflow:hidden;
+    height: 300px;
     grid-template-columns: repeat(2, 1fr);
     background-color: rgb(255, 255, 255);
     padding-top: 5%; 
