@@ -111,8 +111,107 @@
     z-index: 3;
 }
 
+.rectangle_sobre_nos h1 {
+    font-family: Libre Baskerville;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #045570;
+    z-index: 3;
+}
+
 .img_perfil {
     width: 250px;
     border-radius: 40px;
     border: 10px solid white;
+}
+
+@media screen and (max-width: 920px) {
+    .sobre_nos {
+        height: 1690px;
+    }
+    .titulo {
+        margin-top: 15%;
+    }
+    .texto_quem_somos {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .container_perfils {
+        gap: 0px;
+    }
+
+    .perfil_socias {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        margin-left: 3%;
+    }
+
+    .img_perfil {
+        width: 200px;
+        margin-left: 4%;
+        border-radius: 40px;
+        border: 10px solid white;
+    }
+
+    .rectangle_sobre_nos {
+        width: 90%;
+    }
+
+    .rectangle_sobre_nos p {
+        text-indent: 20px;
+        font-size: 12px;
+    }
+
+    .rectangle_sobre_nos h1 {
+        font-size: 18px;
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+  
+@media screen and (max-width: 560px) {
+    .titulo {
+        width: 50%;
+        height: 3%;
+    }
+    .sobre_nos {
+        height: 3175px;
+    }
+    .texto_quem_somos h2 {
+        font-size: 30px;
+    }
+    
+    .texto_quem_somos p4 {
+        font-size: 18px;
+    }
+    .container_perfils {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .perfil_socias {
+        margin-top: 5%;
+        flex-direction:column;
+        width: 100%;
+        z-index: 3;
+    }
+    .img_perfil {
+        margin-left: 24%;
+    }
+    .rectangle_sobre_nos {
+        width: 90%;
+        height: 370px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
 }

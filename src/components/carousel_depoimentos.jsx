@@ -20,7 +20,7 @@ const CarouselDepoimentos = (props) => {
     }
 
     return (
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", height:"70%"}}>
             <button className='botao_voltar_pagina' onClick={VoltarPagina}>
                 <img src="images/right-arrow.png" />
             </button>
