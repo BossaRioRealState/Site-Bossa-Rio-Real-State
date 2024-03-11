@@ -8,16 +8,18 @@
 	align-items: center;
     justify-content: center;
 	height: 10%;
-	padding: 0 5%;
+	padding: 5%;
+	padding-top: 3%;
 	cursor: pointer;
 }
 
 .header ul {
+	display: flex;
+	width: 100%;
     align-items: center;
     justify-content: center;
 	list-style: none;
-	display: flex;
-	gap: 60px;
+	column-gap: 5%;
 }
 
 .header li {
@@ -72,4 +74,22 @@
 .img_flag {
 	width:20%;
 	z-index: 3
+}
+
+@media screen and (max-width: 920px) {
+
+}
+
+
+@media screen and (max-width: 560px) {
+	.header {
+		height:5%
+	}
+	.header li {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
 }

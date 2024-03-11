@@ -28,7 +28,8 @@
     background-color: rgb(255, 255, 255, 0.6);
     font-family: Libre Baskerville;
     color: #045570;
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     z-index: 3;
 }
 
@@ -45,7 +46,7 @@
 .container_botao_contato {
     display: flex;
     justify-content: right;
-    margin-top: 100px;
+    margin-top: -90px;
     margin-right: 150px;
     opacity: 1;
 }
@@ -68,4 +69,24 @@
 
 .botao_contato:hover {
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 920px){
+    .imoveis {
+        padding-top: 22%;
+    }
+    .container_botao_contato {
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
 }

@@ -42,7 +42,7 @@ export default function Home() {
                                 </Texto>
                             </div>
                             <div className="grid_valores">
-                                <div>
+                                <Texto>
                                     <ul>
                                         <li>Ética</li>
                                         <li>Respeito</li>
@@ -50,8 +50,8 @@ export default function Home() {
                                         <li>Comprometimento</li>
                                         <li>Inovação</li>
                                     </ul>
-                                </div>
-                                <div>
+                                </Texto>
+                                <Texto>
                                     <ul>
                                         <li>Discrição</li>
                                         <li>Excelência</li>
@@ -59,7 +59,7 @@ export default function Home() {
                                         <li>Cooperação</li>
                                         <li>Agilidade</li>
                                     </ul>
-                                </div>
+                                </Texto>
                             </div>
                         </Texto>
                     </div>

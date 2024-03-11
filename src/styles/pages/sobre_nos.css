@@ -2,7 +2,8 @@
     position: relative;
     /* background-color: rgba(255, 220, 100, 0.1); */
     overflow: hidden;
-    height: 250vh; /* Altura inicial */
+    height: 250vh;
+    /* Altura inicial */
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -15,7 +16,7 @@
     width: 260px;
     margin-left: 10%;
     background-image: url('/images/sobre_nos/lines.png');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -72,11 +73,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.6;
-    background-position:bottom right;
+    background-position: bottom right;
     height: 100%;
     width: 100%;
     z-index: 0;
-  }
+}
 
 .rectangle_sobre_nos {
     border-radius: 15px;
@@ -86,7 +87,7 @@
     padding: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top:50px;
+    margin-top: 50px;
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -96,7 +97,7 @@
 
 .perfil_socias {
     width: 400px;
-    z-index:3;
+    z-index: 3;
 }
 
 .rectangle_sobre_nos p {

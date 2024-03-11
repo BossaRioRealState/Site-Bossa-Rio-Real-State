@@ -78,10 +78,11 @@ const CarouselImoveis = (props) => {
                     </div>
                 </div>
             </div>
-
+            
             <button className='botao_passar_imovel' onClick={PassarImovel}>
                 <img src="images/right-arrow.png" />
             </button>
+            
 
         </div>
     )

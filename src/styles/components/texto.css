@@ -98,6 +98,7 @@
     font-size: 22px;
     color: #045570;
     z-index: 3;
+    margin-top: 5%;
     /* font-weight: bold; */
 }
 
@@ -163,4 +164,47 @@
     background-color: #045570;
     border: 3px solid #045570;
     z-index: 3;
+}
+@media screen and (max-width: 920px) {
+    .Texto p1 {
+        font-size: 16px;
+    }
+
+    .Texto h3 {
+        font-size:10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+@media screen and (max-width: 560px) {
+    .Texto h2 {
+        font-size: 30px;
+    }
+    .Texto h3 {
+        font-size:12px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Texto p {
+        font-size: 16px;
+    }
+    .Texto p1 {
+        margin-top: 0%;
+        font-size: 13px;
+    }
+    .Texto li {
+        font-size: 16px;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .Texto p3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Texto p1 {
+        font-size: 11px;
+    }
 }
