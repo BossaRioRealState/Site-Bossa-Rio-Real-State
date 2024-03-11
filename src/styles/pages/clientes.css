@@ -25,3 +25,21 @@
 .titulo_depoimentos {
     margin-left: 10%
 }
+
+@media screen and (max-width: 920px) {
+    .clientes {
+        height: 110vh;
+    }
+    .background_clientes {
+        height: 100%;
+        width: 190%;
+    }
+}
+  
+@media screen and (max-width: 560px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+
+}
