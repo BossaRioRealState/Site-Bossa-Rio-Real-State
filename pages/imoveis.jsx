@@ -91,7 +91,7 @@ for (let i = 1; i <= 10; i++) {
     info_imoveis[0][1][0].push(
         <img src={`/images/imoveis/jaguaribe/barao-jaguaribe (${i}).jpg`} alt={`Slide ${i}`} />);
     info_imoveis[1][1][0].push(
-        <img src={`/images/imoveis/cupertino/${i}.jpg`} alt={`Slide ${i}`} />);
+        <img src={`/images/imoveis/jaguaribe/barao-jaguaribe (${i}).jpg`} alt={`Slide ${i}`} />);
 
 }
 
@@ -100,7 +100,7 @@ for (let i = 1; i <= 30; i++) {
     info_imoveis[0][2][0].push(
         <img src={`/images/imoveis/cobertura/cobertura (${i}).jpg`} alt={`Slide ${i}`} />);
     info_imoveis[1][2][0].push(
-        <img src={`/images/imoveis/cupertino/${i}.jpg`} alt={`Slide ${i}`} />);
+        <img src={`/images/imoveis/cobertura/cobertura (${i}).jpg`} alt={`Slide ${i}`} />);
 
 }
 
