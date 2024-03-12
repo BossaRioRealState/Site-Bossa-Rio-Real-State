@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import {useLanguage} from 'src/components/language';
 
 const CarouselImoveis = (props) => {
     const [IndexFotoAtual, setIndexFotoAtual] = useState(0);
     const [IndexImovelAtual, setIndexImovelAtual] = useState(0);
+    const { currentLanguage } = useLanguage();
 
     const PassarFoto = () => {
-        if (IndexFotoAtual === props.slides[IndexImovelAtual][0].length - 1) {
+        if (IndexFotoAtual === props.slides[currentLanguage][IndexImovelAtual][0].length - 1) {
             setIndexFotoAtual(0);
         } else {
             setIndexFotoAtual(IndexFotoAtual + 1);
@@ -14,14 +16,14 @@ const CarouselImoveis = (props) => {
 
     const VoltarFoto = () => {
         if (IndexFotoAtual === 0) {
-            setIndexFotoAtual(props.slides[IndexImovelAtual][0].length - 1);
+            setIndexFotoAtual(props.slides[currentLanguage][IndexImovelAtual][0].length - 1);
         } else {
             setIndexFotoAtual(IndexFotoAtual - 1);
         }
     }
 
     const PassarImovel = () => {
-        if (IndexImovelAtual === props.slides.length - 1) {
+        if (IndexImovelAtual === props.slides[currentLanguage].length - 1) {
             setIndexImovelAtual(0);
         } else {
             setIndexImovelAtual(IndexImovelAtual + 1);
@@ -31,7 +33,7 @@ const CarouselImoveis = (props) => {
 
     const VoltarImovel = () => {
         if (IndexImovelAtual === 0) {
-            setIndexImovelAtual(props.slides.length - 1);
+            setIndexImovelAtual(props.slides[currentLanguage].length - 1);
         } else {
             setIndexImovelAtual(IndexImovelAtual - 1);
         }
@@ -48,7 +50,7 @@ const CarouselImoveis = (props) => {
             <div className="imovel">
                 
                 <div class="title">
-                    <h2>{props.slides[IndexImovelAtual][1][0]}</h2>
+                    <h2>{props.slides[currentLanguage][IndexImovelAtual][1][0]}</h2>
                 </div>
 
                 <div class="grid_infos">
@@ -59,7 +61,7 @@ const CarouselImoveis = (props) => {
                             <img src="images/right-arrow.png" />
                         </button>
 
-                        {props.slides[IndexImovelAtual][0][IndexFotoAtual]}
+                        {props.slides[currentLanguage][IndexImovelAtual][0][IndexFotoAtual]}
 
                         <button className='botao_passar_foto' onClick={PassarFoto}>
                             <img src="images/right-arrow.png" />
@@ -68,12 +70,12 @@ const CarouselImoveis = (props) => {
                     </div>
 
                     <div className="descricao_imovel">
-                        <p>{props.slides[IndexImovelAtual][1][1]}</p>
+                        <p>{props.slides[currentLanguage][IndexImovelAtual][1][1]}</p>
                         <ul>
-                            <li>{props.slides[IndexImovelAtual][1][2]}: {props.slides[IndexImovelAtual][1][3]}</li>
-                            <li>{props.slides[IndexImovelAtual][1][4]}: {props.slides[IndexImovelAtual][1][5]}</li>
-                            <li>{props.slides[IndexImovelAtual][1][6]}: {props.slides[IndexImovelAtual][1][7]}</li>
-                            <li>{props.slides[IndexImovelAtual][1][8]}: {props.slides[IndexImovelAtual][1][9]}</li>
+                            <li>{props.slides[currentLanguage][IndexImovelAtual][1][2]}: {props.slides[currentLanguage][IndexImovelAtual][1][3]}</li>
+                            <li>{props.slides[currentLanguage][IndexImovelAtual][1][4]}: {props.slides[currentLanguage][IndexImovelAtual][1][5]}</li>
+                            <li>{props.slides[currentLanguage][IndexImovelAtual][1][6]}: {props.slides[currentLanguage][IndexImovelAtual][1][7]}</li>
+                            <li>{props.slides[currentLanguage][IndexImovelAtual][1][8]}: {props.slides[currentLanguage][IndexImovelAtual][1][9]}</li>
                         </ul>
                     </div>
                 </div>

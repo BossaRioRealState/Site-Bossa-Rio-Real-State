@@ -4,7 +4,19 @@ import Texto from "src/components/Texto";
 
 import CarouselDepoimentos from 'src/components/carousel_depoimentos';
 
+import {useLanguage} from 'src/components/language';
+
+const textos_clientes = [
+    ["CLIENTES",
+    "Conheça as impressões de quem teve experiências com a Bossa Rio Real Estate." ,
+    "Depoimentos de"," Clientes anteriores:"],
+    ["CUSTOMERS",
+    "Get to know the impressions of those who had experiences with Bossa Rio Real Estate.",
+    "Testimonials from", " previous Customers:",]
+]
+
 export default function clientes() {
+    const { currentLanguage } = useLanguage();
 
     return (
         <div>
@@ -14,14 +26,14 @@ export default function clientes() {
                 <div className="titulo_clientes">
                         <Texto>
                             <hr/>
-                            <h2>CLIENTES</h2>    
+                            <h2>{textos_clientes[currentLanguage][0]}</h2>    
                             <hr2/>
-                            <p>Conheça as impressões de quem teve experiências com a Bossa Rio Real Estate.</p>                 
+                            <p>{textos_clientes[currentLanguage][1]}</p>                 
                         </Texto>
                 </div>
                 <div className="titulo_depoimentos">
                     <Texto>
-                        <h2>Depoimentos de<br></br>Clientes anteriores:</h2>
+                        <h2>{textos_clientes[currentLanguage][2]}<br></br>{textos_clientes[currentLanguage][3]}</h2>
                     </Texto>
                 </div>
                 <CarouselDepoimentos slides={[]}/>

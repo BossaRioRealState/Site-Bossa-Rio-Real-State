@@ -119,7 +119,7 @@
 .secao3 {
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 950px;
     /* text-align: center; */
 }
 
@@ -421,7 +421,7 @@
     .grid_concierge {
         height: 60%;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 60% 40%;
         gap:5%
     }
     .img_concierge {

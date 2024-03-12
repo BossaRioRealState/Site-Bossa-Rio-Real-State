@@ -1,6 +1,15 @@
 import Texto from "src/components/Texto"
 
+import { useLanguage } from 'src/components/language';
+
+const textos_footer = [
+    ["Your Modern Office Space"," for more productibility","Vendas","Imóveis","Clientes","Veja também","Sobre Nós","Contatos"],
+    ["Your Modern Office Space"," for more productibility","Sales","Real Estate","Clients","See also","About Us","Contacts",]
+]
+
 export default function Footer() {
+    const { currentLanguage } = useLanguage();
+
     return (
         <footer id="footer">
             <div className="footer_esquerda">
@@ -10,27 +19,27 @@ export default function Footer() {
                     className="logo_footer"
                 />
                 <Texto>
-                    <p>Your Modern Office Space<br></br> for more productibility</p>
+                    <p>{textos_footer[currentLanguage][0]}<br></br>{textos_footer[currentLanguage][1]}</p>
                 </Texto>
             </div>
 
             <div className="footer_direita">
                 <div>
                     <Texto>
-                        <h4>Vendas</h4>
-                        <p4><a href="/imoveis">Imóveis</a></p4>
-                        <p4><a href="/clientes">Clientes</a></p4>
+                        <h4>{textos_footer[currentLanguage][2]}</h4>
+                        <p4><a href="/imoveis">{textos_footer[currentLanguage][3]}</a></p4>
+                        <p4><a href="/clientes"></a>{textos_footer[currentLanguage][4]}</p4>
                     </Texto>
                 </div>
                 <div>
                     <Texto>
-                        <h4>Veja também</h4>
-                        <p4><a href="/sobre_nos">Sobre Nós</a></p4>
+                        <h4>{textos_footer[currentLanguage][5]}</h4>
+                        <p4><a href="/sobre_nos">{textos_footer[currentLanguage][6]}</a></p4>
                     </Texto>
                 </div>
                 <div>
                     <Texto>
-                        <h4>Contatos</h4>
+                        <h4>{textos_footer[currentLanguage][7]}</h4>
                     </Texto>
                     <div className="container_contatos">
                         <a href="https://wa.me/5521971878889">

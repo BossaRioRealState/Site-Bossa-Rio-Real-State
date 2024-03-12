@@ -1,4 +1,8 @@
+import { LanguageProvider } from 'src/components/language';
+
 import Head from "next/head"
+import Header from "src/components/Header.jsx"
+import Home from "pages/index.jsx"
 
 import "src/styles/pages/index.css"
 import "src/styles/pages/imoveis.css"
@@ -14,9 +18,10 @@ import "src/styles/components/carousel_depoimentos.css"
 import "src/styles/global.css"
 
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }){
+
     return (
-        <>
+        <LanguageProvider>
             <Head>
                 <title>Bossa Rio Real State</title>
 
@@ -40,6 +45,6 @@ export default function App({ Component, pageProps }) {
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet"></link>
                 </Head>
             <Component {...pageProps} />
-        </>
+        </LanguageProvider>
     )
 }
