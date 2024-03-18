@@ -3,7 +3,8 @@
 	width: 100%;
 	z-index: 100;
 	color: #045570;
-    font-family: Libre Baskerville;
+    font-family: Lato;
+	font-weight: 400;
 	display: flex;
 	align-items: center;
     justify-content: center;
@@ -24,7 +25,7 @@
 
 .header li {
     align-items: center;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 /* Estilos para a barra de navegação móvel */

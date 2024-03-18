@@ -135,12 +135,14 @@
 /* Referente aos textos */
 
 .title h2 {
-    font-family: Libre Baskerville;
+    font-family: Lato;
     text-align: left;
     font-size: 40px;
     margin-left: 0px;
     color: #045570;
     z-index: 3;
+    font-weight: 300;
+    font-style: normal;
     /* margin-top: 5%; */
     /* margin-bottom: -6%; */
 }
@@ -151,7 +153,7 @@
 }
 
 .descricao_imovel p {
-    font-family: Inter;
+    font-family: Lato;
     text-align: justify;
     text-justify: auto;
     font-size: 22px;
@@ -159,12 +161,13 @@
     z-index: 3;
     padding-right: 5%;
     padding-left: 5%;
-    font-weight: initial;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .descricao_imovel ul {
     padding: 5%;
-    font-family: Inter;
+    font-family: Lato;
     text-align: left;
     font-size: 20px;
     color: #045570;
@@ -174,6 +177,8 @@
     z-index: 3;
     line-height: 1.5;
     font-weight: initial;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .descricao_imovel li {
@@ -181,7 +186,7 @@
 }
 
 .descricao_imovel p1 {
-    font-family: Inter;
+    font-family: Lato;
     text-align: left;
     font-size: 20px;
     z-index: 3;

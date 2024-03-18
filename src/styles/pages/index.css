@@ -42,7 +42,7 @@
     width: 300px;
     justify-content: center;
     font-size: 24px;
-    font-family: Libre Baskerville;
+    font-family: Lato;
     background-color: #045570;
     border-radius: 15px;
     color: #E1DFDB;
@@ -97,8 +97,10 @@
 }
 
 .img_porque {
-    width: 60%;
+    width: 55%;
     border-radius: 15px;
+    border: 5px solid #ffffff;
+    
 }
 
 .container_texto_porque {
@@ -165,19 +167,21 @@
     flex-direction: column;
     padding: 2% 0;
     z-index: 3;
+    gap: 5%;
 }
 
 .rectangle h1 {
-    font-family: Libre Baskerville;
+    font-family: Lato;
     text-align: center;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 300;
+    font-style: normal;
     color: #045570;
     z-index: 3;
 }
 
 .rectangle p1 {
-    font-family: Inter;
+    font-family: Lato;
     text-align: justify;
     text-justify: auto;
     font-size: 18px;
@@ -186,6 +190,8 @@
     margin-top: 5%;
     margin-right: 8%;
     z-index: 3;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .img-icon {
@@ -267,7 +273,7 @@
     text-align: justify;
     font-weight: bold;
     align-self: center;
-    font-family: Libre Baskerville;
+    font-family: Lato;
     color: #045570;
     z-index: 3;
 }
@@ -297,13 +303,15 @@
 }
 
 .nossa_historia p {
-    font-family: Libre Baskerville;
+    font-family: Lato;
     text-align: center;
     text-justify: auto;
     font-size: 34px;
     color: #045570;
     z-index: 3;
     padding-bottom: 1%;
+    font-weight: 500;
+    font-style: normal;
 }
 
 @media screen and (max-width: 920px){

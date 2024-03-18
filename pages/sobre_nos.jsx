@@ -40,7 +40,7 @@ export default function sobre_nos() {
                 <div className="titulo">
                     <Texto>
                         <h2>{textos_sobre_nos[currentLanguage][0]}</h2>
-                        <h2 style={{ marginLeft: "35%" }}>{textos_sobre_nos[currentLanguage][1]}</h2>
+                        <h2 style={{ marginLeft: "50%" }}>{textos_sobre_nos[currentLanguage][1]}</h2>
                     </Texto>
                 </div>
                 <div className="texto_quem_somos">
