@@ -82,6 +82,7 @@
 .rectangle_sobre_nos {
     border-radius: 15px;
     width: 90%;
+    margin-left: 5%;
     height: 370px;
     background-color: rgb(255, 255, 255);
     padding: 5%;
