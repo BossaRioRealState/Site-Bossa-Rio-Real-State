@@ -2,7 +2,7 @@
     position: relative;
     /* background-color: rgba(255, 220, 100, 0.1); */
     overflow: hidden;
-    height: 250vh;
+    height: 1850px;
     /* Altura inicial */
     text-align: center;
     justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 .texto_quem_somos h2 {
-    font-family: LAto;
+    font-family: Lato;
     text-align: center;
     font-size: 40px;
     font-weight: 300;
@@ -60,11 +60,11 @@
     background-color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     z-index: 4;
     margin-top: 100px;
-    gap: 70px;
+    /* gap: 70px; */
 }
 
 .background_sobre_nos {
@@ -81,7 +81,7 @@
 
 .rectangle_sobre_nos {
     border-radius: 15px;
-    width: 100%;
+    width: 90%;
     height: 370px;
     background-color: rgb(255, 255, 255);
     padding: 5%;
@@ -139,7 +139,7 @@
         margin-right: 15%;
     }
     .container_perfils {
-        gap: 0px;
+        gap: 0%;
     }
 
     .perfil_socias {
@@ -148,18 +148,31 @@
         width: 100%;
         justify-content: center;
         align-content: center;
-        margin-left: 3%;
+        /* margin-left: 3%; */
     }
 
     .img_perfil {
         width: 200px;
-        margin-left: 4%;
+        /* margin-left: 4%; */
         border-radius: 40px;
         border: 10px solid white;
     }
+    .texto_quem_somos {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .texto_quem_somos h2 {
+        font-size: 30px;
+    }
+    
+    .texto_quem_somos p4 {
+        font-size: 16px;
+    }
 
     .rectangle_sobre_nos {
-        width: 90%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .rectangle_sobre_nos p {
@@ -187,7 +200,7 @@
     }
     
     .texto_quem_somos p4 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .container_perfils {
         display: flex;
@@ -200,15 +213,15 @@
         width: 100%;
         z-index: 3;
     }
-    .img_perfil {
-        margin-left: 24%;
+    .container_foto {
+        justify-content: center;
     }
     .rectangle_sobre_nos {
-        width: 90%;
-        height: 370px;
+        width: 80%;
+        height: 300px;
         padding-left: 5%;
         padding-right: 5%;
-        margin-left: 4%;
+        margin-left: 10%;
     }
 }
 

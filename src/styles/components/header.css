@@ -8,9 +8,8 @@
 	display: flex;
 	align-items: center;
     justify-content: center;
-	height: 10%;
-	padding: 5%;
-	padding-top: 3%;
+	height: 70px;
+	/* padding-top: 3%; */
 	cursor: pointer;
 }
 

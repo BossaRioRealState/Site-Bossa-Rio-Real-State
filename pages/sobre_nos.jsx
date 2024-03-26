@@ -56,10 +56,12 @@ export default function sobre_nos() {
 
                 <div className="container_perfils">
                     <div class="perfil_socias">
-                        <img
-                            src="/images/sobre_nos/Aliny.jpg"
-                            className="img_perfil"
-                        />
+                        <div class="container_foto">
+                            <img
+                                src="/images/sobre_nos/Aliny.jpg"
+                                className="img_perfil"
+                            />
+                        </div>
                         <div class="rectangle_sobre_nos">
                             <h1>Aliny Manzieri</h1>
                             <p>{textos_sobre_nos[currentLanguage][6]}</p>
@@ -67,10 +69,12 @@ export default function sobre_nos() {
                         </div>
                     </div>
                     <div class="perfil_socias">
-                        <img
-                            src="/images/sobre_nos/Flavia.jpg"
-                            className="img_perfil"
-                        />
+                        <div class="container_foto">
+                            <img
+                                src="/images/sobre_nos/Flavia.jpg"
+                                className="img_perfil"
+                            />
+                        </div>
                         <div class="rectangle_sobre_nos">
 
                             <h1>Flávia Baldoíno Costa</h1>
@@ -80,10 +84,12 @@ export default function sobre_nos() {
                         </div>
                     </div>
                     <div class="perfil_socias">
-                        <img
-                            src="/images/sobre_nos/Isis.jpg"
-                            className="img_perfil"
-                        />
+                        <div class="container_foto">
+                            <img
+                                src="/images/sobre_nos/Isis.jpg"
+                                className="img_perfil"
+                            />
+                        </div>
                         <div class="rectangle_sobre_nos">
 
                             <h1>Isis Grossi</h1>
