@@ -1,4 +1,5 @@
 import Texto from "src/components/Texto"
+import Link from 'next/link';
 
 import { UseLanguage } from 'src/components/language';
 
@@ -27,14 +28,14 @@ export default function Footer() {
                 <div>
                     <Texto>
                         <h4>{textos_footer[currentLanguage][2]}</h4>
-                        <p4><a href="/imoveis">{textos_footer[currentLanguage][3]}</a></p4>
-                        <p4><a href="/clientes"></a>{textos_footer[currentLanguage][4]}</p4>
+                        <p4><Link href="/imoveis">{textos_footer[currentLanguage][3]}</Link></p4>
+                        <p4><Link href="/clientes"></Link>{textos_footer[currentLanguage][4]}</p4>
                     </Texto>
                 </div>
                 <div>
                     <Texto>
                         <h4>{textos_footer[currentLanguage][5]}</h4>
-                        <p4><a href="/sobre_nos">{textos_footer[currentLanguage][6]}</a></p4>
+                        <p4><Link href="/sobre_nos">{textos_footer[currentLanguage][6]}</Link></p4>
                     </Texto>
                 </div>
                 <div>
@@ -42,27 +43,27 @@ export default function Footer() {
                         <h4>{textos_footer[currentLanguage][7]}</h4>
                     </Texto>
                     <div className="container_contatos">
-                        <a href="https://wa.me/5521971878889">
+                        <Link href="https://wa.me/5521971878889">
                             <img
                                 src="/images/footer/whatsapp.png"
                                 alt="whatsapp"
                                 className="logo_contato"
                             />
-                        </a>
-                        <a href="https://www.instagram.com/bossariorealestate">
+                        </Link>
+                        <Link href="https://www.instagram.com/bossariorealestate">
                             <img
                                 src="/images/footer/instagram.png"
                                 alt="instagram"
                                 className="logo_contato"
                             />
-                        </a>
-                        <a href="mailto:bossario@plantelturismo.com.br">
+                        </Link>
+                        <Link href="mailto:bossario@plantelturismo.com.br">
                             <img
                                 src="/images/footer/email.png"
                                 alt="email"
                                 className="logo_contato"
                             />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

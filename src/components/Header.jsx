@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {UseLanguage} from 'src/components/language';
+import Link from 'next/link';
 
 const textos_header = [
     //portugues
@@ -19,11 +20,11 @@ export default function Header() {
     return (
         <header className="header">
             <ul>
-                <li><a href="/">{textos_header[currentLanguage][0]}</a></li>
-                <li><a href="/imoveis">{textos_header[currentLanguage][1]}</a></li>
-                <li><a href="/clientes">{textos_header[currentLanguage][2]}</a></li>
-                <li><a href="/sobre_nos">{textos_header[currentLanguage][3]}</a></li>
-                <li><a href="#footer">{textos_header[currentLanguage][4]}</a></li>
+                <li><Link href="/">{textos_header[currentLanguage][0]}</Link></li>
+                <li><Link href="/imoveis">{textos_header[currentLanguage][1]}</Link></li>
+                <li><Link href="/clientes">{textos_header[currentLanguage][2]}</Link></li>
+                <li><Link href="/sobre_nos">{textos_header[currentLanguage][3]}</Link></li>
+                <li><Link href="#footer">{textos_header[currentLanguage][4]}</Link></li>
 
                 <li onClick={toggleIdiomMenu}>
                     {textos_header[currentLanguage][5]}
