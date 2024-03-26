@@ -88,12 +88,12 @@ export default function Home() {
                         alt="Logo Bossa rio"
                         className="img_logo"
                     />
-
                     <div className="container_botao_home">
                         <a href="https://wa.me/5521971878889" className="botao_home">
                             {textos_home[currentLanguage][0]}
                         </a>
                     </div>
+                    
                 </div>
             </div>
             <div className="secao2">
