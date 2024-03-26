@@ -329,9 +329,6 @@
         width:60%;
         height:auto; 
     }
-    .botao_home {
-        width: 40%
-    }
     .Background_porque_trab {
         height:100%;
     }
@@ -375,7 +372,7 @@
         width: 90%;
         height: 100%;
         padding-left: 2%;
-        padding-right: 3%;
+        padding-right: 5%;
     }
     .img-icon {
         position: flex;
@@ -412,8 +409,17 @@
 }
 
 @media screen and (max-width: 560px) {
+    .secao1 {
+        height: 700px;
+    }
     .botao_home {
-        margin-top: 40%;
+        margin-top: 27%;
+        width: 70%;
+    }
+    .img_logo {
+        margin-top: 20%;
+        width:80%;
+        height:auto; 
     }
     .container_img_porque {
         display: flex;

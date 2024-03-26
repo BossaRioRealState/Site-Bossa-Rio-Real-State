@@ -90,7 +90,7 @@ export default function Home() {
                     />
                     <div className="container_botao_home">
                         <a href="https://wa.me/5521971878889" className="botao_home">
-                            {textos_home[currentLanguage][0]}
+                            <p1>{textos_home[currentLanguage][0]}</p1>
                         </a>
                     </div>
                     
