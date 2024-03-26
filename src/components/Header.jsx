@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {useLanguage} from 'src/components/language';
+import {UseLanguage} from 'src/components/language';
 
 const textos_header = [
     //portugues
@@ -14,7 +14,7 @@ export default function Header() {
         setIdiomMenuActive(!IdiomMenuActive);
     };
     
-    const { currentLanguage, MudarIdiomaPort, MudarIdiomaEng } = useLanguage();
+    const { currentLanguage, MudarIdiomaPort, MudarIdiomaEng } = UseLanguage();
 
     return (
         <header className="header">

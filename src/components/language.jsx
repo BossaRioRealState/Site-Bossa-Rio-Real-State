@@ -30,6 +30,6 @@ export function LanguageProvider({ children }) {
 }
 
 // Custom hook that components can use to access the language state and updater functions
-export function useLanguage() {
+export function UseLanguage() {
   return useContext(LanguageContext);
 }

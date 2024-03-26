@@ -1,6 +1,6 @@
 import Texto from "src/components/Texto"
 
-import { useLanguage } from 'src/components/language';
+import { UseLanguage } from 'src/components/language';
 
 const textos_footer = [
     ["Your Modern Office Space"," for more productibility","Vendas","Imóveis","Clientes","Veja também","Sobre Nós","Contatos"],
@@ -8,7 +8,7 @@ const textos_footer = [
 ]
 
 export default function Footer() {
-    const { currentLanguage } = useLanguage();
+    const { currentLanguage } = UseLanguage();
 
     return (
         <footer id="footer">

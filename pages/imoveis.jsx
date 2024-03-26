@@ -3,7 +3,7 @@ import Footer from "src/components/Footer"
 
 import CarouselImoveis from 'src/components/carousel_imoveis';
 
-import {useLanguage} from 'src/components/language';
+import {UseLanguage} from 'src/components/language';
 
 
 const info_imoveis = [
@@ -111,7 +111,7 @@ const textos_imoveis = [
 
 
 export default function imoveis() {
-    const { currentLanguage } = useLanguage();
+    const { currentLanguage } = UseLanguage();
 
     return (
         <div>

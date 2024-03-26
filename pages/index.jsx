@@ -3,7 +3,7 @@ import Header from "src/components/Header"
 import Footer from "src/components/Footer"
 import Texto from "src/components/Texto";
 
-import {useLanguage} from 'src/components/language';
+import {UseLanguage} from 'src/components/language';
 
 
 const textos_home = [
@@ -75,7 +75,7 @@ const textos_home = [
 ]
 
 export default function Home() {
-    const { currentLanguage } = useLanguage();
+    const { currentLanguage } = UseLanguage();
 
     return (
         <div className="Home">

@@ -4,7 +4,7 @@ import Texto from "src/components/Texto";
 
 import CarouselDepoimentos from 'src/components/carousel_depoimentos';
 
-import {useLanguage} from 'src/components/language';
+import {UseLanguage} from 'src/components/language';
 
 const textos_clientes = [
     ["CLIENTES",
@@ -16,7 +16,7 @@ const textos_clientes = [
 ]
 
 export default function clientes() {
-    const { currentLanguage } = useLanguage();
+    const { currentLanguage } = UseLanguage();
 
     return (
         <div>

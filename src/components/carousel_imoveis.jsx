@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import {useLanguage} from 'src/components/language';
+import {UseLanguage} from 'src/components/language';
 
 const CarouselImoveis = (props) => {
     const [IndexFotoAtual, setIndexFotoAtual] = useState(0);
     const [IndexImovelAtual, setIndexImovelAtual] = useState(0);
-    const { currentLanguage } = useLanguage();
+    const { currentLanguage } = UseLanguage();
 
     const PassarFoto = () => {
         if (IndexFotoAtual === props.slides[currentLanguage][IndexImovelAtual][0].length - 1) {
