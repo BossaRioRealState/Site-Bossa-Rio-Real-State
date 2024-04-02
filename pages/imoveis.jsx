@@ -54,7 +54,7 @@ const info_imoveis = [
         [
             [],
             ["Charming apartment in the quadrilateral, in Ipanema",
-                "Florense cabinets, 2 vacancies, closet",
+                "Florense cabinets, 2 parking spaces, closet",
                 "Condominium", "24h doorman",
                 "Area", "130m2",
                 "Rooms", "3 bedrooms including 1 suite",
