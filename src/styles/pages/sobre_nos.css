@@ -73,6 +73,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
+    top:0;
     background-position: bottom right;
     height: 100%;
     width: 100%;
@@ -229,3 +230,4 @@
 @media screen and (max-width: 320px) {
 
 }
+
