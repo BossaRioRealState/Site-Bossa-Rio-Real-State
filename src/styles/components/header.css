@@ -32,7 +32,7 @@
 	border-radius: 15px;
 	position: absolute;
 	width: 22%;
-	height: 130%;
+	height: 150px;
 	background-color: rgb(255, 255, 255);
 	flex-direction: column;
 	align-items: center;
@@ -78,7 +78,7 @@
 @media screen and (max-width: 920px) {
 	.nav-idiom {
 		width: 25%;
-		height: 110%;
+		height: 130px;
 		margin-left: -10%;
 	}
 	.header li {
@@ -96,6 +96,9 @@
 	}
 	.header li {
 		font-size: 9px;
+	}
+	.nav-idiom {
+		height: 70px;
 	}
 	.nav-idiom li {
 		font-size: 6px;

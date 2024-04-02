@@ -25,18 +25,20 @@ export default function Footer() {
             </div>
 
             <div className="footer_direita">
-                <div>
-                    <Texto>
-                        <h4>{textos_footer[currentLanguage][2]}</h4>
-                        <p4><Link href="/imoveis">{textos_footer[currentLanguage][3]}</Link></p4>
-                        <p4><Link href="/clientes"></Link>{textos_footer[currentLanguage][4]}</p4>
-                    </Texto>
-                </div>
-                <div>
-                    <Texto>
-                        <h4>{textos_footer[currentLanguage][5]}</h4>
-                        <p4><Link href="/sobre_nos">{textos_footer[currentLanguage][6]}</Link></p4>
-                    </Texto>
+                <div style={{display:"flex", gap:"60px"}}>
+                    <div>
+                        <Texto>
+                            <h4>{textos_footer[currentLanguage][2]}</h4>
+                            <p4><Link href="/imoveis">{textos_footer[currentLanguage][3]}</Link></p4>
+                            <p4><Link href="/clientes"></Link>{textos_footer[currentLanguage][4]}</p4>
+                        </Texto>
+                    </div>
+                    <div>
+                        <Texto>
+                            <h4>{textos_footer[currentLanguage][5]}</h4>
+                            <p4><Link href="/sobre_nos">{textos_footer[currentLanguage][6]}</Link></p4>
+                        </Texto>
+                    </div>
                 </div>
                 <div>
                     <Texto>

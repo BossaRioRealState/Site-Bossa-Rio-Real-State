@@ -189,6 +189,15 @@
     font-style: normal;
 }
 @media screen and (max-width: 920px) {
+    .Texto hr{
+        width: 50px;
+        margin-left: 140px;
+        border: 2px solid #045570;
+    }
+    .Texto hr2{
+        width: 50px;
+        border: 2px solid #045570;
+    }
     .Texto p {
         font-size: 16px;
     }
@@ -215,6 +224,10 @@
 
 }
 @media screen and (max-width: 560px) {
+    .Texto hr{
+        margin-left: 120px;
+        border: 2px solid #045570;
+    }
     .Texto h2 {
         font-size: 30px;
     }

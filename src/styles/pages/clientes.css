@@ -37,6 +37,10 @@
         height: 100%;
         width: 190%;
     }
+    .titulo_clientes {
+        margin-left: 10%;
+        width: 80%;
+    }
 }
   
 @media screen and (max-width: 560px) {
