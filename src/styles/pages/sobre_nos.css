@@ -93,6 +93,7 @@
     text-align: center;
     justify-content: center;
     z-index: 2;
+    overflow-y: auto;
     /* border: 2px solid white; */
 }
 
@@ -194,7 +195,7 @@
         height: 3%;
     }
     .sobre_nos {
-        height: 3175px;
+        height: 2775px;
     }
     .texto_quem_somos h2 {
         font-size: 30px;
