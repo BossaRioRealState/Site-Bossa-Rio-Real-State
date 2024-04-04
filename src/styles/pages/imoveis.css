@@ -65,8 +65,8 @@
     border-radius: 15px;
     color: #E1DFDB;
     transition: transform 1s;
-    margin-right: 50px;
-    padding: 2.5% 1%;
+    /* margin-right: 50px; */
+    align-items: center;
 }
 
 .botao_contato:hover {
@@ -80,10 +80,7 @@
     .container_botao_contato {
         justify-content: center;
         margin-right: 0px;
-        margin-left: 50px;
-    }
-    .botao_contato {
-        padding-top: 5%;
+        /* margin-left: 50px; */
     }
     .carousel_background {
         height: 800px;
@@ -102,7 +99,7 @@
         padding-right: 0px;
     }
     .botao_contato {
-        padding-top: 9%;
+        
     }
 }
 

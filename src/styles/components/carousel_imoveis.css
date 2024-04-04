@@ -19,7 +19,7 @@
 
 .imovel {
     padding-left: 0%!important;
-    width: 100%;
+    width: 90%;
     display: "absolute"
 }
 
@@ -67,6 +67,7 @@
     border: none;
     cursor: pointer;
     background-color: transparent;
+    margin-bottom: 10px;
 }
 
 .botao_voltar_imovel img {
@@ -80,6 +81,7 @@
     height: 80px;
     width: 80px;
     opacity: 0.6;
+    z-index: 30;
 }
 
 .botao_voltar_imovel {
@@ -216,7 +218,7 @@
         width: 400px;
     }
     .botao_voltar_imovel {
-        margin-left: -1%;
+        /* margin-left: -1%; */
     }
     .botao_voltar_foto img, .botao_passar_foto img{
         width: 60px;
@@ -284,12 +286,12 @@
     .botao_voltar_imovel {
         position: absolute;
         margin-right: 90%;
-        margin-bottom: 7%;
+        margin-bottom: 25px;
     }
     .botao_passar_imovel {
         position: absolute;
         margin-left: 83%;
-        margin-bottom: 7%;
+        margin-bottom: 25px;
     }
     /* Referente aos textos */
 
