@@ -1,0 +1,120 @@
+.botao_voltar_pagina 
+  height: 60px
+  width: 60px
+  font-size: 15px
+  border-radius: 5px
+  border: none
+  cursor: pointer
+  background-color: transparent
+  margin-top: 13%
+  z-index: 4
+
+.botao_passar_pagina
+  height: 60px
+  width: 60px
+  font-size: 15px
+  border-radius: 5px
+  border: none
+  cursor: pointer
+  background-color: transparent
+  margin-top: 13%
+  z-index: 4
+
+.botao_voltar_pagina img
+  transform: scaleX(-1)
+  height: 80px
+  width: 80px
+
+
+
+.botao_passar_pagina img
+  height: 80px
+  width: 80px
+
+
+
+.botao_voltar_pagina
+  justify-content: left
+
+.botao_passar_pagina
+  justify-content: right
+  margin-right: 15px
+
+.container_depoimentos
+  margin-left: 8%
+  margin-top: 5%
+  display: grid
+  gap: 5%
+  grid-template-rows: repeat(2, 25%)
+  grid-template-columns: repeat(2, 1fr)
+
+.depoimento
+  display: flex
+
+.retangulo_depoimento
+  position: relative
+  left: -7%
+  top: 12.5%
+  border-radius: 30px
+  width: 70%
+  height: 75%
+  background-color: rgb(255, 255, 255)
+  overflow: hidden
+  padding: 2%
+  padding-left: 8%
+
+  p1
+    font-family: Lato
+    text-align: justify
+    font-size: 18px
+    color: #045570
+
+.img_depoimento
+  width: 25%
+  border-radius: 20px
+  z-index: 5
+
+@media screen and (max-width: 920px)
+  .container_depoimentos
+    grid-template-rows: repeat(4, 18%)
+    grid-template-columns: none
+
+  .botao_voltar_pagina, .botao_passar_pagina
+    margin-top: 43%
+
+@media screen and (max-width: 560px)
+  .container_depoimentos
+    margin-left: 2%
+    grid-template-rows: repeat(4, 20%)
+    grid-template-columns: none
+
+  .depoimento
+    justify-content: space-evenly
+    flex-direction: column
+
+  .retangulo_depoimento
+    position: relative
+    left: 0
+
+  .botao_voltar_pagina, .botao_passar_pagina
+    margin-top: 72%
+
+  .retangulo_depoimento
+    width: 100%
+    height: auto
+
+    padding: 2%
+    padding-left: 8%
+    border-radius: 15px
+
+    p1
+      font-size: 12px
+      overflow-y: auto
+      line-height: 0.1
+
+  .img_depoimento
+    margin-left: 35%
+    width: 30%
+    height: auto
+
+@media screen and (max-width: 320px)

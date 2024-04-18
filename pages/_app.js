@@ -4,16 +4,28 @@ import Head from "next/head"
 import Header from "src/components/Header.jsx"
 import Home from "pages/index.jsx"
 
-import "src/styles/pages/index.css"
-import "src/styles/pages/imoveis.css"
-import "src/styles/pages/clientes.css"
-import "src/styles/pages/sobre_nos.css"
+// import "src/styles/pages/index.css"
+// import "src/styles/pages/imoveis.css"
+// import "src/styles/pages/clientes.css"
+// import "src/styles/pages/sobre_nos.css"
 
-import "src/styles/components/texto.css"
-import "src/styles/components/header.css"
-import "src/styles/components/footer.css"
-import "src/styles/components/carousel_imoveis.css"
-import "src/styles/components/carousel_depoimentos.css"
+// import "src/styles/components/texto.css"
+// import "src/styles/components/header.css"
+// import "src/styles/components/footer.css"
+// import "src/styles/components/carousel_imoveis.css"
+// import "src/styles/components/carousel_depoimentos.css"
+
+import "src/styles/pages/index.sass"
+import "src/styles/pages/imoveis.sass"
+import "src/styles/pages/clientes.sass"
+import "src/styles/pages/sobre_nos.sass"
+
+import "src/styles/components/texto.sass"
+import "src/styles/components/header.sass"
+import "src/styles/components/footer.sass"
+import "src/styles/components/carousel_imoveis.sass"
+import "src/styles/components/carousel_depoimentos.sass"
+
 
 import "src/styles/global.css"
 
