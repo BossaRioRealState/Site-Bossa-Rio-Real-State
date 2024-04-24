@@ -15,19 +15,29 @@ import Home from "pages/index.jsx"
 // import "src/styles/components/carousel_imoveis.css"
 // import "src/styles/components/carousel_depoimentos.css"
 
-import "src/styles/pages/index.sass"
-import "src/styles/pages/imoveis.sass"
-import "src/styles/pages/clientes.sass"
-import "src/styles/pages/sobre_nos.sass"
+// import "src/styles/pages/index.sass"
+// import "src/styles/pages/imoveis.sass"
+// import "src/styles/pages/clientes.sass"
+// import "src/styles/pages/sobre_nos.sass"
 
-import "src/styles/components/texto.sass"
-import "src/styles/components/header.sass"
-import "src/styles/components/footer.sass"
-import "src/styles/components/carousel_imoveis.sass"
-import "src/styles/components/carousel_depoimentos.sass"
+// import "src/styles/components/texto.sass"
+// import "src/styles/components/header.sass"
+// import "src/styles/components/footer.sass"
+// import "src/styles/components/carousel_imoveis.sass"
+// import "src/styles/components/carousel_depoimentos.sass"
 
+import "src/styles/pages/index_prefixed.css"
+import "src/styles/pages/imoveis_prefixed.css"
+import "src/styles/pages/clientes_prefixed.css"
+import "src/styles/pages/sobre_nos_prefixed.css"
 
-import "src/styles/global.css"
+import "src/styles/components/texto_prefixed.css"
+import "src/styles/components/header_prefixed.css"
+import "src/styles/components/footer_prefixed.css"
+import "src/styles/components/carousel_imoveis_prefixed.css"
+import "src/styles/components/carousel_depoimentos_prefixed.css"
+
+import "src/styles/global_prefixed.css"
 
 
 export default function App({ Component, pageProps }){

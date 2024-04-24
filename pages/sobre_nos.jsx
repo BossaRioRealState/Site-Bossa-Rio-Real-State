@@ -34,8 +34,8 @@ export default function sobre_nos() {
 
     return (
         <div>
-            <Header />
             <div className="sobre_nos">
+                <Header />
                 <div className="background_sobre_nos"></div>
                 <div className="titulo">
                     <Texto>
