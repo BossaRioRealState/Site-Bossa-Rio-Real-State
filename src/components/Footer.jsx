@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { UseLanguage } from 'src/components/language';
 
 const textos_footer = [
-    ["Your Modern Office Space"," for more productibility","Vendas","Imóveis","Clientes","Veja também","Sobre Nós","Contatos"],
-    ["Your Modern Office Space"," for more productibility","Sales","Real Estate","Clients","See also","About Us","Contacts",]
+    ["Novos caminhos","  se abrem para você","Vendas","Imóveis","Clientes","Veja também","Sobre Nós","Contatos"],
+    ["New paths","  open up for you","Sales","Real Estate","Clients","See also","About Us","Contacts",]
 ]
 
 export default function Footer() {

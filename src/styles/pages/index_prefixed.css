@@ -29,15 +29,16 @@
 }
 
 .img_logo {
-    width: 90%;
+    width: 45%;
     /* height: 35%; */
-    margin-top: 35%;
+    margin-top: 3%;
 }
 
 .container_botao_home {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height:140px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -67,7 +68,8 @@
     transition: transform 1s;
     transition: transform 1s, -webkit-transform 1s;
     margin-top: 25%;
-    padding: 7% 1%;
+    margin-bottom: 5% !important;
+    padding: 4% 1%;
 }
 
 .botao_home:hover {
@@ -396,9 +398,13 @@
         background-position: top;
     }
     .img_logo {
-        margin-top: 20%;
+        /* margin-top: 10%; */
         width:60%;
         height:auto; 
+    }
+    .botao_home
+    {
+        margin-top: -0%;
     }
     .Background_porque_trab {
         height:100%;
@@ -500,7 +506,7 @@
         height: 700px;
     }
     .botao_home {
-        margin-top: 40%;
+        margin-top: 10%;
         width: 70%;
     }
     .img_logo {
