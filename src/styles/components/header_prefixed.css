@@ -134,7 +134,7 @@
 
 @media screen and (max-width: 560px) {
 	.header {
-		height:5%
+		height:50px
 	}
 	.header li {
 		font-size: 9px;
