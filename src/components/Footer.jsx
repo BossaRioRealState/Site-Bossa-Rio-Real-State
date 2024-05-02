@@ -30,7 +30,7 @@ export default function Footer() {
                         <Texto>
                             <h4>{textos_footer[currentLanguage][2]}</h4>
                             <p4><Link href="/imoveis">{textos_footer[currentLanguage][3]}</Link></p4>
-                            <p4><Link href="/clientes"></Link>{textos_footer[currentLanguage][4]}</p4>
+                            {/* <p4><Link href="/clientes"></Link>{textos_footer[currentLanguage][4]}</p4> */}
                         </Texto>
                     </div>
                     <div>

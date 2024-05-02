@@ -22,7 +22,7 @@ export default function Header() {
             <ul>
                 <li><Link href="/">{textos_header[currentLanguage][0]}</Link></li>
                 <li><Link href="/imoveis">{textos_header[currentLanguage][1]}</Link></li>
-                <li><Link href="/clientes">{textos_header[currentLanguage][2]}</Link></li>
+                {/* <li><Link href="/clientes">{textos_header[currentLanguage][2]}</Link></li> */}
                 <li><Link href="/sobre_nos">{textos_header[currentLanguage][3]}</Link></li>
                 <li><Link href="#footer">{textos_header[currentLanguage][4]}</Link></li>
 
