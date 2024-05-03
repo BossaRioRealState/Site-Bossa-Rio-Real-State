@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="grid_porque_trab">
                     <div className="container_img_porque">
                         <img
-                            src="/images/Home/interior.jpg"
+                            src="/images/Home/socias.jpg"
                             alt="Logo Bossa rio"
                             className="img_porque"
                         />

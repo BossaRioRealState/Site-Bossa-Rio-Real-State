@@ -66,6 +66,13 @@ export default function Footer() {
                                 className="logo_contato"
                             />
                         </Link>
+                        <Link href="https://www.facebook.com/share/17Xep7w4HrJLrr3T/?mibextid=QwDbR1">
+                            <img
+                                src="/images/footer/facebook.png"
+                                alt="facebook"
+                                className="logo_contato"
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>
