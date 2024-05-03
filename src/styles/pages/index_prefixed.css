@@ -257,7 +257,7 @@
     position: relative;
     overflow: hidden;
     height: 110vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .Background_concierge {
