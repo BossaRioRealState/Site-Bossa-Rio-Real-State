@@ -541,6 +541,17 @@
         height: 800px;
         width: 100vw;
     }
+    .texto_concierge {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titulo_concierge {
+        margin-right: 8%;
+    }
+    .topicos_concierge {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     .grid_concierge {
         height: 60%;
         width: 100vw;
