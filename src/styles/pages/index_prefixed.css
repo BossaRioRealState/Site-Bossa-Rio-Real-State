@@ -553,7 +553,7 @@
         margin-right: 8%;
     }
     .grid_concierge {
-        height: 60%;
+        height: 500px;
         width: 100vw;
         grid-template-rows: 60% 40%;
         grid-template-columns: none;
