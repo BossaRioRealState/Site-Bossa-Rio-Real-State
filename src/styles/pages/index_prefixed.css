@@ -538,33 +538,33 @@
         height: 80%;
     }
     .secao4 {
-        height: 800px;
+        height: 900px;
         width: 100vw;
     }
     .texto_concierge {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .titulo_concierge {
-        margin-right: 8%;
-    }
-    .topicos_concierge {
         margin-left: 8%;
         margin-right: 8%;
     }
+    .titulo_concierge {
+        margin-right: 0%;
+    }
+    .topicos_concierge {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
     .grid_concierge {
-        height: 500px;
+        height: 600px;
         width: 100vw;
         grid-template-rows: 60% 40%;
         grid-template-columns: none;
         gap:5%
     }
     .img_concierge {
-        margin-top: 25%;
+        margin-top: 0%;
         height: 100%;
     }
     .container_frase_disney {
-        margin-top: 30%;
+        /* margin-top: 30%; */
         font-size: 10px;
     }  
 }
