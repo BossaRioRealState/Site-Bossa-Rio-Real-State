@@ -484,8 +484,8 @@
         width: 100vw;
     }
     .grid_concierge {
-        grid-template-columns: unset;
         grid-template-rows: 60% 40%;
+        grid-template-columns: none;
         gap:5%
     }
     .texto_concierge {
@@ -544,8 +544,8 @@
     .grid_concierge {
         height: 60%;
         width: 100vw;
-        grid-template-columns: unset;
         grid-template-rows: 60% 40%;
+        grid-template-columns: none;
         gap:5%
     }
     .img_concierge {
