@@ -541,6 +541,13 @@
         height: 900px;
         width: 100vw;
     }
+    .grid_concierge {
+        height: 600px;
+        width: 100vw;
+        grid-template-rows: 60% 40%;
+        grid-template-columns: none;
+        gap:5%
+    }
     .texto_concierge {
         margin-left: 8%;
         margin-right: 8%;
@@ -551,13 +558,6 @@
     .topicos_concierge {
         margin-left: 0%;
         margin-right: 0%;
-    }
-    .grid_concierge {
-        height: 600px;
-        width: 100vw;
-        grid-template-rows: 60% 40%;
-        grid-template-columns: none;
-        gap:5%
     }
     .img_concierge {
         margin-top: 0%;
