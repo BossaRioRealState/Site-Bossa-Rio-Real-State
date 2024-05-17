@@ -492,7 +492,8 @@
         margin-top: 5%; 
         margin-left: 3%;
         margin-right: 3%;
-        height: 1000px;
+        height: 100%;
+        width: 94%;
     }
     .img_concierge {
         height: 100%;
@@ -551,6 +552,8 @@
     .texto_concierge {
         margin-left: 8%;
         margin-right: 8%;
+        height: 100%;
+        width: 84%;
     }
     .titulo_concierge {
         margin-right: 0%;
