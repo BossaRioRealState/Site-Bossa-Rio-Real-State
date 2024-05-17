@@ -539,7 +539,7 @@
         height: 80%;
     }
     .secao4 {
-        height: 900px;
+        height: 1200px;
         width: 100vw;
     }
     .grid_concierge {
@@ -553,7 +553,7 @@
         margin-left: 8%;
         margin-right: 8%;
         height: 100%;
-        width: 84%;
+        width: 360px;
     }
     .titulo_concierge {
         margin-right: 0%;
@@ -561,6 +561,9 @@
     .topicos_concierge {
         margin-left: 0%;
         margin-right: 0%;
+    }
+    .container_img_concierge {
+        height: 240px;
     }
     .img_concierge {
         margin-top: 0%;
