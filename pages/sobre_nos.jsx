@@ -8,13 +8,13 @@ const textos_sobre_nos = [
     ["SOBRE", "NÓS",
         "QUEM SOMOS?",
         "Bossa Rio Real Estate chega ao mercado com o propósito de auxiliar você que deseja comprar ou vender um imóvel de luxo ou de alto padrão. Conte com a consultoria especializada de uma empresa que agrega o que há de melhor disponível no mercado imobiliário para sua segurança e conforto.",
-        "Com o apoio da Plantel Turismo, uma empresa consolidada e reconhecida há mais de 40 anos no mercado de turismo de luxo, chegamos para ocupar uma lacuna muito requisitada neste nicho",
+        "Três mulheres, com carreiras consolidadas em suas respectivas áreas, uniram-se para se complementarem e trazer algo que o mercado nunca viu.",
         "Através dos nossos contatos, curadoria de portfólio e know how em atendimento personalizado, agregamos um novo conceito para um público exigente e sofisticado.",
         "Formada em comunicação, com MBA em Gestão Empresarial pela FGV.",
         "Experiência ampla na área comercial e em bancos. Atuando desde financiamento habitacional, aporte, até compra e venda de imóveis para fundo imobiliário, inclusive negociações pela oportunitty. Sócia da imobiliária Bossa Rio Real Estate.", "Formada em Direito com especialização em Gestão e Direito Empresarial pela FGV.",
         "Possui ampla experiência em Direito Imobiliário, atuando também como sócia em consultoria imobiliária da Bossa Rio Real Estate.",
         "Empresária no ramo do turismo e concierge lifestyle a frente da agência boutique Rio de Janeiro Feelings, associada a Plantel Turismo.",
-        "Tem expertise no gerenciamento de eventos e negócios do mercado de luxo e facilidades em viagens de privadas de alto padrão. Sócia de Bossa Rio Real Estate."
+        "Tem expertise no gerenciamento de eventos e negócios do mercado de luxo e facilidades em viagens de privadas de alto padrão. Sócia de Bossa Rio Real Estate."
     ],
     ["ABOUT", "US", "WHO ARE WE?", "Bossa Rio Real Estate enters the market with the purpose of assisting you who wish to buy or sell a luxury or high standard property. Count on the specialized consultancy of a company that brings together the best available in the real estate market for your safety and comfort.",
         "With the support of Plantel Turismo, a consolidated and recognized company for over 40 years in the luxury tourism market, we arrive to fill a much requested gap in this niche",
